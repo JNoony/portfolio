@@ -1,0 +1,53 @@
+/* [ TICKET ] contents */
+article{margin:25% auto 0;}
+.ticket_area{width:90%;margin:0 auto 0;text-align: center;}
+.ticket_area ul{display:inline-block;width:48%;margin-left:1%;}
+.ticket_area ul:last-child{margin-left: 0;}
+
+.ticket_area ul li{width:100%;min-height:140px;cursor: pointer;border:1px solid #aaa;position: relative;box-sizing: border-box;overflow: hidden;text-align: left;margin-bottom:5px;}
+.ticket_area ul li.first{min-height:0;text-align: center;border:none;color:#444;font-size:1.4em;line-height:1.5em;}
+
+span.ticket_info{display: block;padding:2% 3% 8%;min-height:70px;line-height:1.2;box-sizing: border-box;position: relative;z-index:-1;background:#fff;}
+span.ticket_info>strong{display: block;font-size:1.2em;letter-spacing: -1px;}
+span.ticket_info>span{display: block;width:100%;}
+span.ticket_info>span:nth-child(2){font-size: 1.0em;}
+span.ticket_info>span.gray{font-size:0.7em;}
+
+div.ticket_info{background:#d4d4d4;position: relative;z-index:-1;padding:2% 5% 7%;min-height:70px;box-sizing: border-box;}
+div.ticket_info>span{line-height:1.5em;}
+div.ticket_info>span strong{display: block;font-size:1.7em;color:#eaeaea;margin-right:5px;text-indent:14px;}
+div.ticket_info>span strong:after{content:'₩';position: absolute;top:46%;right:10%;font-size:12px;font-weight: 100;}
+div.ticket_info>span strong.last{line-height:1.8em;text-indent:8px;}
+div.ticket_info>span strong.last:after{top:18%;right:10%;}
+div.ticket_info>span .txt_line{font-size:0.9em;color:#eaeaea;text-decoration: line-through;margin-left:14px}
+
+.ticket_area ul li.on{border-color:#d02735;}
+.ticket_area ul li.on span{color:#444;}
+.ticket_area ul li.on .gray{color:#777;}
+.ticket_area ul li.on div.ticket_info{background:#d02735;}
+.ticket_area ul li.on div.ticket_info>span strong,
+.ticket_area ul li.on div.ticket_info>span .txt_line{color:#fff;}
+
+
+.dc_icon{display: none;}
+.ticket_area ul li.on .dc_icon{display: block;position: absolute;top:-25px;right:2px;z-index:0;background:#000;width:52px;height:52px;border-radius:52px;overflow: hidden; }
+.ticket_area ul li.on .dc_icon>span{color:#fff;display: block;text-align: center;width:100%;font-size:0.7em;vertical-align:bottom;line-height:1.2em;}
+.ticket_area ul li.on .dc_icon>span>strong{color:#fff;display: inline-block;font-size:2em;margin-top:15px;}
+
+
+.ticket_area ul li:hover{background:rgba(170,170,170,0.7);}
+.ticket_area ul li:hover:after{content:'Closed';position: absolute;top:0;left:0;width:100%;height:100%;text-align: center;font-size: 2em;color:#fff;
+z-index:10;transition:1s;transform: translateY(30%);box-sizing: border-box;}
+.ticket_area ul li.on:hover{background:linear-gradient(145deg, rgba(255,51,64,0.8) 20%, rgba(111,30,140,0.8) 75%);}
+.ticket_area ul li.on:hover:after{content:'GET TICKET';text-align: center;line-height:1em;font-weight: bold;white-space: pre-wrap;background:url(../images/m_ticket_bg01.png);transform: translateY(0);background-size:100% 100%;padding-top:40px;}
+.ticket_area ul li.first:hover{background:transparent;}
+.ticket_area ul li.first:hover:after{display: none;box-sizing: border-box;}
+
+.ticket_2day{margin-top:10px;}
+
+.ticket_dec{width:100%;text-align: right;font-size:0.78em;}
+.buy_ticket{text-align: center;margin-top:25px;}
+.buy_ticket>a{display:block;width:200px;height:50px;margin: auto;line-height:50px;font-size:1.3em;font-weight: bold;text-transform: uppercase;}
+
+.footer:after{bottom:-10px;z-index:-1000;}
+/* //[ TICKET ] contents */

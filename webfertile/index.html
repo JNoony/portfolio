@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='format-detection' content='telephone=no'>
+    <meta name="naver-site-verification" content="4e1123e59935a32cb0f905c24f4bce20f1e1d576"/>
+    <meta name="keywords" content="스타소식,스타투표,스타카드 수집,표나무,퍼틀,fertile,퍼틀앱">
+    <meta name="description" content="퍼틀[fertile] 팬덤,팬클럽,스타 캐릭터 생성">
+    <meta name="author" content="(주)퍼틀">    
+    <title>퍼틀웹</title>
+    
+    <link rel="canonical" href="http://www.fertile.co.kr">
+    <link rel="shortcut icon" href="favicon.ico">
+    
+    <!-- base css -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/aba9c5d180.css">
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <link rel="stylesheet" href="./css/alertify.css">
+    <link rel="stylesheet" href="./css/swiper.css">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <link rel="stylesheet" href="./css/respond.css">
+
+</head>
+<body>
+    <div class="wrap">
+        <header>
+            <div class="topmenu"><div><a href="#">Logout</a></div></div>
+            <div class="head">
+                <h1>
+                    <a href="index.html"></a>
+                </h1>
+                 <nav>
+                    <ul class="f_gnb"></ul>
+                </nav>
+            </div>
+<!--            mobile head-->
+            <aside class="mobile_head">
+                <h3 class="blind">모바일 사이드</h3>
+                <a href="#" class="m_gnb"></a>
+                <div class="mobile_wrap">
+                    <div class="mobile_box_user">
+                        <div class="m_user_nic">
+                            <span>닉네임닉네임닉네임이여기나오면되쥬</span>
+                        </div>
+                        <div class="m_user_info">
+                            <div class="m_user_card">
+                                <img src="./images/img_card/3_x_special.png" alt="명찰카드">
+                            </div>
+                            <div class="user_data_box">
+                                <div class="m_user_box">
+                                    <a href="myinfo.html">
+                                        <img src="./images/icon_edit.png" alt="내정보아이콘">
+                                        <span>내정보</span>
+                                    </a>
+                                </div>
+                                <div class="m_user_box">
+                                    <a href="#" class="sch_btn">
+                                        <img src="./images/icon_date.png" alt="출석체크">
+                                        <span>출석체크</span>
+                                    </a>
+                                </div>
+                                <div class="m_user_box">
+                                    <div class="m_user_lv">
+                                        <span>인기</span><strong>119,999</strong>
+                                    </div>
+                                </div>
+                                <div class="m_user_box">
+                                    <div class="m_user_lv">
+                                        <span>LEVEL</span><strong>11,556</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile_user_point">
+                            <div class="color1 m_user_p"><span>M </span><strong>211,223</strong></div>
+                            <div class="color3 m_user_p"><span>E </span><strong>3,232,333</strong></div>
+                            <div class="color4 m_user_p"><span>씨앗 </span><strong>234</strong></div>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+<!--            mobile head end-->
+        </header>
+        <div class="con_visual">
+           <div class="viaual_wrap">
+                <div class="banner_slide">
+                    <ul class="bigImg" id="event_banner">
+                        <li>
+                           <a href="#">
+                            <img src="./images/banner01.png" alt="주간랭킹">
+                            <div class="sld_text">주간랭킹!!<span>매주 인기점수 주간랭킹 1위~5위까지 M퍼틀을 드립니다.</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <img src="./images/bannerA.png" alt="A조 투표 트와이스, 여자친구, EXO">
+                            <div class="sld_text">A조 투표 시작!<span>트와이스, 여자친구, EXO<br>첫번째 서바이벌 투표 시작!!</span></div>
+                        </li>
+                        <li>
+                            <img src="./images/bannerB.png" alt="B조는예정 레드벨벳, 워너원, BTS">
+                            <div class="sld_text">B조는예정!<span>레드벨벳, 워너원, BTS<br>투표일정 미리 확인하는 센스!</span></div>
+                        </li>
+                        <li>
+                            <img src="./images/banner04.png" alt="표나무 키우기">
+                            <div class="sld_text">표나무  키우기<br><span>물주기/비료주기/햇빛주기를 통해 표나무를 키워보세요!<br>표나무의 레벨은 내 투표수!! </span></div>
+                        </li>
+                        <li>
+                            <img src="./images/banner02.png" alt="퍼틀웹 오픈">
+                            <div class="sld_text">OPEN!!<br><span>퍼틀웹이 오픈했습니다!</span></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="user_data">
+                    <ul class="user_data_box">
+                        <li class="data_box_li">
+                            <span>
+                                <img src="./images/img_card/3_x_special.png" alt="프로필카드">
+                            </span>
+                        </li>
+                        <li class="data_box_li">
+                            <a href="#">
+                                <ul>
+                                    <li><img alt="내정보아이콘" src="./images/icon_edit.png"></li>
+                                    <li>내정보</li>
+                                </ul>
+                            </a>
+                        </li>
+                        <li class="data_box_li">
+                            <a class="sch_btn" href="#">
+                                <ul>
+                                    <li><img alt="출석체크" src="./images/icon_date.png"></li>
+                                    <li>출석체크</li>
+                                </ul>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+           </div>
+        </div>
+        <div class="user_point">
+            <div class="user_point_box">
+                <div class="point_box_text"><span>여기까지가딱열글자당</span></div>
+                <div class="point_box_p">
+                    <span class="color1">M : <strong>11,223</strong></span>
+                    <span class="color3">E : <strong>23,232,333</strong></span>
+                    <span class="color4">씨앗 : <strong>234</strong></span>
+                    <span>내인기 : <strong>234</strong></span>
+                    <span>LEVEL : <strong>234</strong></span>
+                </div>
+            </div>
+        </div>
+        <div class="contaner">
+            <h2 class="blind">본문내용</h2>
+            <div class="m_menu_btn">
+                <ul class="m_menu_btn_box">
+                    <li><a href="#">출석체크</a></li>
+                    <li><a href="#">카드뽑기</a></li>
+                    <li><a href="#">표나무</a></li>
+                    <li><a href="#">M충전</a></li>
+                    <li><a href="#">랭킹</a></li>
+                </ul>
+            </div>
+            <div class="con_middle">
+                <div class="box_cont">
+                    <section class="fertile_notice">
+                        <h3 class="box_con_title"><a href="#">공지사항 +</a></h3>
+                        <ul>
+                            <li><a href="#"><strong class="list_title">42차 [FUN투표] 이벤트 당첨자(500 이벤트퍼틀 지급)</strong><span class="list_date">09-04 12:31</span></a></li>
+                            <li><a href="#"><strong class="list_title">[주간랭킹] 8/28 ~ 9/3 주간랭킹 1~5위 당첨 결과</strong><span class="list_date">09-04 09:44</span></a></li>
+                            <li><a href="#"><strong class="list_title">[퍼틀투표] 여름휴가 함께 떠나고 싶은 아이돌 이벤트 당첨자(지니스밍권 100회)</strong><span class="list_date">07-04 11:41</span></a></li>
+                            <li><a href="#"><strong class="list_title">6월 30일 업데이트안내</strong><span class="list_date">06-30 13:42</span></a></li>
+                        </ul>
+                    </section>
+                    <section class="hot_issue">
+                        <h3 class="box_con_title">핫이슈</h3>
+                        <div class="hotissue_content swiper-container">
+                            <ul class="hotissue_box swiper-wrapper">
+                                <li class="hotissue_box_li swiper-slide">
+                                    <a href="http://news.nate.com/view/20171206n12644?mid=e1200" target="_blank">
+                                        <span class="multiline">[TV톡톡] 노예 or 버팀목…'강식당' 강호동에게 이수근이란 존재</span>
+                                        <span><img src="http://news.nateimg.co.kr/etc/cms/2017/12/06/1512524129_278.jpg" alt="강호동 이수근"></span>
+                                    </a>
+                                </li>
+                                <li class="hotissue_box_li swiper-slide">
+                                    <a href="http://news.nate.com/view/20171207n15111?mid=n1101" target="_blank">
+                                        <span class="multiline">'라디오쇼' 박명수 "아이유, 과거 막 대했다…잘해줄 걸 후회돼"</span>
+                                        <span><img src="https://www.bankwallet.co.kr/promotion/images/barcode_01.png?date=20150529" alt="박명수"></span>
+                                    </a>
+                                </li>
+                                <li class="hotissue_box_li swiper-slide">
+                                    <a href="http://news.nate.com/view/20171205n40998?mid=e1200" target="_blank">
+                                        <span>김종국 "홍경민, 과거 유명 연예인 많이 만나"</span>
+                                        <span><img src="http://menu.mt.co.kr/moneyweek/thumb/2015/04/16/06/2015041617538031947_1.jpg" alt="김종국"></span>
+                                    </a>
+                                </li>
+                                <li class="hotissue_box_li swiper-slide">
+                                    <a href="http://news.nate.com/view/20171207n15209?mid=n1101" target="_blank">
+                                        <span class="multiline">[공식입장] "독보적 음반킹"…방탄소년단, 'DNA' 앨범 142만장 돌파 대기록</span>
+                                        <span><img src="http://cfile5.uf.tistory.com/image/243E6548556D50991371C6" alt="방탄"></span>
+                                    </a>
+                                </li>
+                                <li class="hotissue_box_li swiper-slide">
+                                    <a href="http://news.nate.com/view/20171205n40625?mid=e1200" target="_blank">
+                                        <span class="multiline">비 "김태희가 스몰웨딩 원해, 총 비용 약 200만원"</span>
+                                        <span><img src="http://news.nateimg.co.kr/etc/cms/2017/12/05/1512485885_579.jpg" alt="비 김태희 스몰웨딩"></span>
+                                    </a>
+                                </li>
+                                <li class="hotissue_box_li swiper-slide">
+                                    <a href="http://news.nate.com/view/20171207n15607?mid=e1100" target="_blank">
+                                        <span class="multiline">[Oh!커피 한 잔①] 양파 "벌써 20년차 오래된 가수…새롭다는 평 듣고파"</span>
+                                        <span><img src="http://news.nateimg.co.kr/etc/cms/2017/12/07/1512614335_291.jpg" alt="기사내용"></span>
+                                    </a>
+                                </li>
+                                <li class="hotissue_box_li swiper-slide">
+                                    <a href="http://news.nate.com/view/20171206n40520?mid=e1100" target="_blank">
+                                        <span class="multiline">[SC이슈]'건강이상' 강다니엘 "얼른 나아서 좋은 무대 보여드릴 것"</span>
+                                        <span><img src="http://news.nateimg.co.kr/etc/cms/2017/12/06/1512562044_643.jpg" alt="강다니엘"></span>
+                                    </a>
+                                </li>
+                                <li class="hotissue_box_li swiper-slide">
+                                    <a href="http://news.nate.com/view/20171205n40625?mid=e1200" target="_blank">
+                                        <span class="multiline">[스타톡톡] 군면제→공개연애…서인국의 '핫'한 2017년</span>
+                                        <span><img src="http://news.nateimg.co.kr/etc/cms/2017/12/06/1512542107_661.jpg" alt="서인국"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#" class="iss_paging_btn iss_prev swiper-button-prev"></a>
+                            <a href="#" class="iss_paging_btn iss_next swiper-button-next"></a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="con_vote">
+                <section class="con_bottom">
+                    <h3 class="box_con_title"><a href="#">투표 리스트 +</a></h3>
+                    <!--투표리스트-->
+                    <div>
+                        <article class="vote_box">
+                            <h4 class="blind">투표박스</h4>
+                            <div class="vote_box_img"><img src="http://placehold.it/400x220" alt="이미지샘플"></div>
+                            <div class="vote_box_last">
+                               <span class="vote_sts sts01">진행중</span>
+                                <div class="vote_box_title">
+                                    <strong class="vote_txt">2017 상반기 최고의 아이돌은 뉴규??</strong>
+                                </div>
+                                <div class="vote_box_data">
+                                    <p><i class="fa fa-commenting vote_com" aria-hidden="true">322</i></p>
+                                    <p>투표기간 <span class="vote_date">07-14 ~ 07-16</span></p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="vote_box">
+                            <h4 class="blind">투표박스</h4>
+                            <div class="vote_box_img"><img src="http://placehold.it/600x700" alt="이미지샘플"></div>
+                            <div class="vote_box_last">
+                                <span class="vote_sts sts02">예정</span>
+                                <div class="vote_box_title">
+                                    <strong class="vote_txt">2017 상반기 최고의 아이돌은 뉴규?? 아이돌은 뉴규??아이돌은 뉴규??아이돌은 뉴규??</strong>
+                                </div>
+                                <div class="vote_box_data">
+                                    <p><i class="fa fa-commenting vote_com" aria-hidden="true">322</i></p>
+                                    <p>투표기간 <span class="vote_date">07-14 ~ 07-16</span></p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="vote_box">
+                            <h4 class="blind">투표박스</h4>
+                            <div class="vote_box_img"><img src="http://placehold.it/350x220" alt="이미지샘플"></div>
+                            <div class="vote_box_last">
+                               <span class="vote_sts sts03">완료</span>
+                                <div class="vote_box_title">
+                                    <strong class="vote_txt">헷</strong>
+                                </div>
+                                <div class="vote_box_data">
+                                    <p><i class="fa fa-commenting vote_com" aria-hidden="true">322</i></p>
+                                    <p>투표기간 <span class="vote_date">07-14 ~ 07-16</span></p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </section>
+            </div>
+            <div class="con_starNews">
+                <div class="con_bottom con_bottom2">
+                    <h3 class="box_con_title"><a href="#">스타소식 +</a></h3>
+                    <!--투표리스트-->
+                    <div class="starnews_box">
+                        <article class="vote_box div_box5" onclick="location.href='#'">
+                            <h4 class="blind">스타소식박스</h4>
+                            <div class="vote_box_img sn_box_img"><img src="http://placehold.it/220x" alt=""></div>
+                            <div class="vote_box_title sn_box_title"><strong class="vote_txt sn_txt">세니야...*ㅁ*</strong></div>
+                        </article>
+                        <article class="vote_box div_box5" onclick="location.href='#'">
+                            <h4 class="blind">스타소식박스</h4>
+                            <div class="vote_box_img sn_box_img"><img src="https://s3.ap-northeast-2.amazonaws.com/fertile.co.kr/market/bbs/images/2017/04/04/a8cdd79b-ac59-426c-9b51-f75462deb88b_thumnail.png" alt=""></div>
+                            <div class="vote_box_title sn_box_title"><strong class="vote_txt sn_txt">호비 비행선!호비 비행선!호비 비행선!호비 비행선!호비 비행선!호비 비행선!호비 비행선!호비 비행선!호비 비행선!</strong></div>
+                        </article>
+                        <article class="vote_box div_box5" onclick="location.href='#'">
+                            <h4 class="blind">스타소식박스</h4>
+                            <div class="vote_box_img sn_box_img"><img src="https://s3.ap-northeast-2.amazonaws.com/fertile.co.kr/bboom/bbs/images/2018/01/09/c9d63a04-a84e-4f01-87ed-9805919ebaa3_thumnail.png" alt=""></div>
+                            <div class="vote_box_title sn_box_title"><strong class="vote_txt sn_txt">언제봐도 멋있ㄷ..</strong></div>
+                        </article>
+                        <article class="vote_box div_box5" onclick="location.href='#'">
+                            <h4 class="blind">스타소식박스</h4>
+                            <div class="vote_box_img sn_box_img"><img src="https://s3.ap-northeast-2.amazonaws.com/fertile.co.kr/bboom/bbs/images/2017/12/26/d1130287-ff56-4bb8-9502-2dda2431b296_thumnail.jpg" alt=""></div>
+                            <div class="vote_box_title sn_box_title"><strong class="vote_txt sn_txt">dwadwdawawddwadwdawawddwadwdawawddwadwdawawd</strong></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="foot">
+                <div class="foot_left">
+                    <h2 class="foot_logo">
+                        <a href="http://fertile.co.kr" target="_blank"></a>
+                    </h2>
+                </div>
+                <div class="foot_right">
+                    <div class="footer_legal">
+                        <ul>
+                            <li><a href="#">개인정보취급방침</a></li>
+                            <li><a href="#">서비스이용약관</a></li>
+                            <li><a href="#">신고하기</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_add">
+                       <p>
+                            <span>상호. (주)퍼틀</span>
+                            <span>대표. 김옥균</span>
+                            <span>사업자등록번호. 653-88-00419</span>
+                            <span>주소. 서울특별시 금천구 가산디지털1로 30 1906</span>
+                        </p>
+                        <p>
+                            <span>T. 070-7700-1225</span>
+                            <span>F. 050-8094-1225</span>
+                            <span>E. fertile@fertile.co.kr</span>
+                        </p>
+                        <p class="copy">copyright &#169; 2017 fertile all rights reserved&#46;</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- base js -->
+    <script src="https://use.fontawesome.com/c107272b8b.js"></script>
+    <script src="./js/jquery-3.0.0.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/alertify.min.js"></script>
+    <script src="./js/jquery.bxslider.js"></script>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/base.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head itemscope itemtype="http://schema.org/WebSite">
+  <title>
+  </title>
+  <!--REPLACE:REDIRECT-MOBILE-->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!--REPLACE:SEO-TAGS-->
+
+  <!-- NOTICE : 이곳에 스크립트나 CSS를 넣어주세요-->
+  <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+  
+  <!--REPLACE:TRACKING-CODES-->
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+
+  <!-- header -->
+  <header>
+    <div class="head">
+      <h1 class="head_logo">
+      <a href="#main"><img src="./images/head_logo.png" alt=""></a>
+    </h1>
+      <nav class="head_gnb">
+        <ul id="mainGnb" class="hori_ul">
+          <li data-menuanchor="reservation" class="active"><a href="#reservation">사전예약</a></li>
+          <li data-menuanchor="quest" class="">
+            <a href="#quest">퀘스트</a>
+            <ul class="sub" id="page3rd_sub">
+              <li><a href="javascript:fullpage_api.moveTo(3,0);">100만 달성</a></li>
+              <li><a href="javascript:fullpage_api.moveTo(3,1);">최애 투표</a></li>
+            </ul>
+          </li>
+          <li data-menuanchor="tutorial">
+            <a href="#tutorial">튜토리얼</a>
+            <ul class="sub" id="page4th_sub">
+              <li><a href="javascript:fullpage_api.moveTo(4,0);">사전답사</a></li>
+              <li><a href="javascript:fullpage_api.moveTo(4,1);">월드맵</a></li>
+              <li><a href="javascript:fullpage_api.moveTo(4,2);">클래스</a></li>
+            </ul>
+          </li>
+          <li data-menuanchor="share"><a href="#share">커뮤니티</a></li>
+        </ul>
+      </nav>
+      <div class="head_sns">
+        <a href="https://cafe.naver.com/lucidadventure" target="_blank"><img src="./images/sns1.png" alt="naver cafe 버튼이미지"></a>
+        <a href="https://www.facebook.com/superplanetcorp/" target="_blank"><img src="./images/sns2.png" alt="facebook 버튼이미지"></a>
+      </div>
+    </div>
+  </header>
+
+  <!-- contents -->
+  <div id="fullpage">
+    <!--<section class="section" style="display:none;"></section>-->
+    <!-- main ::bg video -->
+    <section class="section p_main">
+      <h2 class="blind">열렙전사 메인</h2>
+      <video id="bgVideo" muted poster="./images/outro_Fin03.jpg">
+        <source src="./images/video/outro_Fin.webm" type="video/webm" >
+        <source src="./images/video/outro_Fin.mp4" type="video/mp4" >
+      </video>
+      <!-- muted button -->
+      <button type="button" class="video_muteBtn" id="id_bgVideo_mute">Mute</button>
+      <div class="con_box main_contents">
+        <h2 class="con_tit"><img src="./images/video/main_logo.gif" alt="열렙전사 lucid adventure with NAVER WEBTOON 메인로고"></h2>
+        <div class="con_link"><a href="#" class="video_btn"><img src="./images/icon1.png" alt="열렙전사 동영상 재생 버튼"></a></div>
+        <div class="con_btn"><a href="javascript:fullpage_api.moveTo(2)"><img src="./images/btn1.png" alt="사전예약하기 버튼"></a></div>
+      </div>
+    </section>
+
+    <section class="section section1" id="page1">
+      <h2 class="blind">page1 사전예약</h2>
+      <div class="con_box">
+        <h2 class="con_tit"><img src="./images/page1_tit.jpg" alt=""></h2>
+        <div class="con_frm">
+          <form method="post" name="aform" id="aform">
+            <ul class="con_frmBox">
+              <li>
+                <input type="radio" name="market" id="app_g" value="A" checked>
+                <label for="app_g" class="label_radio"><span></span><img src="./images/app1.png" alt="구글앱스토어"></label>
+                <input type="radio" name="market" id="app_a" value="I">
+                <label for="app_a" class="label_radio"><span></span><img src="./images/app2.png" alt="애플앱스토어"></label>
+              </li>
+              <li>
+                <div class="frm_txtBox">
+                  <input type="text" placeholder="010-1234-1234" name="phone" autocomplete="off">
+                  <a id="id_send_regist" href="javascript:void(0)"><img src="./images/btn1_2.png" alt="사전예약 신청하기 버튼"></a>
+                </div>
+                <div class="frm_chkBox">
+                  <input type="checkbox" id="chkAll" class="j-agree-all" data-check-all>
+                  <label for="chkAll" class="label_radio"><span></span> 아래 내용을 확인하였으며, 모두 동의합니다.</label>
+                </div>
+                <div class="frm_chkBox">
+                  <input type="checkbox" id="chk0" class="j-agree-all" data-check-all-item>
+                  <label for="chk0" class="label_radio"><span></span> 개인정보 수집 및 이용 동의</label>
+                  <a href="javascript:void(0);" class="modal" data-name="pop1"><img src="./images/btn5.png" alt="자세히보기"></a>
+                  <input type="checkbox" id="chk1" class="j-agree-all" data-check-all-item>
+                  <label for="chk1" class="label_radio"><span></span> 이벤트 및 프로모션 알림 수신 동의</label>
+                  <a href="javascript:void(0);" class="modal" data-name="pop2"><img src="./images/btn5.png" alt="자세히보기"></a>
+                </div>
+              </li>
+              <li>
+                <div><img src="./images/page1_txt.png" alt="공식사전예약도 진행중!"></div>
+                <a class="landing-google-link" target="_blank" value="상단">
+                <img src="./images/btn3.png" alt="구글 사전예약 신청하기 버튼"></a>
+                <a class="landing-apple-link" target="_blank" value="상단">
+                <img src="./images/btn4.png" alt="앱스토어 사전예약 신청하기"></a>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <div class="con_img"><img src="./images/page1_img.png" alt="초고속 열렙을 위한 s급 선물지급"></div>
+      </div>
+    </section>
+
+    <section class="section section2">
+      <h2 class="blind">page2 퀘스트1</h2>
+      <article class="con_box con_box1 slide" id="page2_sub1">
+        <h2 class="con_tit"><img src="./images/page2_tit.png" alt="퀘스트1 모든 보상을 모아라 100만달성 릴레이 사전예약자 수 달성시 단계별 보상이 지급됩니다."></h2>
+        <div class="con_img"><img src="./images/page2_img0.png" alt="10만 골드50개,실버 200개 30만 모집권5장,골드100개,실버300개 70만 모집권 10장,골드150개,실버 500개 100만 4~5성 확정권,추가 가방, 골드150개,실버 1000개"></div>
+      </article>
+
+      <article class="con_box con_box2 slide" id="page2_sub2">
+        <h2 class="con_tit"><img src="./images/page2_2_tit.png" alt="퀘스트2 최강의 영웅등급 히어로를 내것으로 2019 뉴비의 선택 투표중"></h2>
+        <div class="con_img">
+          <img src="./images/page2_2_img.png" alt="기호1번 전사소라 기호2번 사냥꾼 템페스트 기호3번 아르메스 기호4번 마법사 오즈 / 출시후 최고 영웅등급 캐릭터를 드립니다. 공식카페에서 대국민 투표 진행중">
+          <a  target="_blank" class="hide_link landing-vote-link"></a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section section3 " id="page3">
+      <h2 class="blind">page3 튜토리얼</h2>
+      <article class="con_box con_box1 slide" id="page3_sub1">
+        <h2 class="con_tit"><img src="./images/page3_tit.png" alt="튜토리얼2.루시드 어드벤처 1분사전답사"></h2>
+        <div class="con_img slide_wrap">
+          <ul class="image_slider" id="slideImg">
+            <li><img src="./images/slide1.png" alt="img1"></li>
+            <li><img src="./images/slide2.png" alt="img2"></li>
+            <li><img src="./images/slide3.png" alt="img3"></li>
+            <li><img src="./images/slide4.png" alt="img4"></li>
+            <li><img src="./images/slide5.png" alt="img5"></li>
+            <li><img src="./images/slide6.png" alt="img6"></li>
+            <li><img src="./images/slide7.png" alt="img7"></li>
+            <li><img src="./images/slide8.png" alt="img8"></li>
+          </ul>
+          <a href="javascript:void(0);" class="slide_btn slide_prev"></a>
+          <a href="javascript:void(0);" class="slide_btn slide_next"></a>
+        </div>
+      </article>
+
+      <article class="con_box con_box2 slide" id="page3_sub2">
+        <h2 class="con_tit"><img src="./images/page3_2_tit.png" alt="튜토리얼2.루시드 어드벤처 월드맵 돋보기"></h2>
+        <div class="con_img">
+          <img src="./images/page3_2_img.png" alt="열렙전사 월드맵" usemap="#page3Map">
+          <div class="map_div" id="mapDiv">
+            <span class="map_area map_area1" data-name="map1">1</span>
+            <span class="map_area map_area2" data-name="map2">2</span>
+            <span class="map_area map_area3" data-name="map3">3</span>
+            <span class="map_area map_area4" data-name="map4">4</span>
+            <span class="map_area map_area5" data-name="map5">5</span>
+            <span class="map_area map_area6" data-name="map6">6</span>
+            <span class="map_area map_area7" data-name="map7">7</span>
+            <span class="map_area map_area8" data-name="map8">8</span>
+            <span class="map_area map_area9" data-name="map9">9</span>
+            <span class="map_area map_area10" data-name="map10">10</span>
+            <span class="map_area map_area11" data-name="map11">11</span>
+            <span class="map_area map_area12" data-name="map12">12</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="con_box con_box3 slide" id="page3_sub3">
+        <h2 class="con_tit"><img src="./images/page3_3_tit.png" alt=""></h2>
+        <div class="tab_wrap">
+          <ul class="con_tab">
+            <li class="tab_btn on" data-btnid="tabBox1">전사</li>
+            <li class="tab_btn " data-btnid="tabBox2">격투가</li>
+            <li class="tab_btn " data-btnid="tabBox3">사냥꾼</li>
+            <li class="tab_btn " data-btnid="tabBox4">개척자</li>
+            <li class="tab_btn " data-btnid="tabBox5">사제</li>
+            <li class="tab_btn " data-btnid="tabBox6">마법사</li>
+            <li class="tab_btn " data-btnid="tabBox7">기사</li>
+            <li class="tab_btn " data-btnid="tabBox8">흑마법사</li>
+            <li class="tab_btn " data-btnid="tabBox9">도적</li>
+          </ul>
+          <div id="tabBox1" class="tab_div_box">
+            <div class="con_img con_img_bg"><img src="./images/page3_3_tab1.png" alt="전사_소라"></div>
+            <!-- <div class="con_btn tab_btnBox">
+              <a href="javascript:void(0);" data-link="./images/video/c1_skill1.mp4"></a>
+              <a href="javascript:void(0);" data-link="./images/video/c1_skill2.mp4"></a>
+            </div> -->
+            <div class="con_video tab_video">
+              <video controls loop="loop"><source data-src="./images/video/c1_skill1.mp4" type="video/mp4"></video>
+            </div>
+          </div>
+          <div id="tabBox2" class="tab_div_box">
+            <div class="con_img con_img_bg"><img src="./images/page3_3_tab2.png" alt="격투가_택"></div>
+            <!-- <div class="con_btn tab_btnBox">
+              <a href="javascript:void(0);" data-link="./images/video/c2_skill1.mp4"></a>
+              <a href="javascript:void(0);" data-link="./images/video/c2_skill2.mp4"></a>
+            </div> -->
+            <div class="con_video tab_video">
+              <video controls loop="loop"><source data-src="./images/video/c2_skill1.mp4" type="video/mp4"></video>
+            </div>
+          </div>
+          <div id="tabBox3" class="tab_div_box">
+            <div class="con_img con_img_bg"><img src="./images/page3_3_tab3.png" alt="사냥꾼_템페스트"></div>
+            <!-- <div class="con_btn tab_btnBox">
+              <a href="javascript:void(0);" data-link="./images/video/c3_skill1.mp4"></a>
+              <a href="javascript:void(0);" data-link="./images/video/c3_skill2.mp4"></a>
+            </div> -->
+            <div class="con_video tab_video">
+              <video controls loop="loop"><source data-src="./images/video/c3_skill1.mp4" type="video/mp4"></video>
+            </div>
+          </div>
+          <div id="tabBox4" class="tab_div_box">
+            <div class="con_img con_img_bg"><img src="./images/page3_3_tab4.png" alt="개척자_아르메스"></div>
+            <!-- <div class="con_btn tab_btnBox">
+              <a href="javascript:void(0);" data-link="./images/video/c4_skill1.mp4"></a>
+              <a href="javascript:void(0);" data-link="./images/video/c4_skill2.mp4"></a>
+            </div> -->
+            <div class="con_video tab_video">
+              <video controls loop="loop"><source data-src="./images/video/c4_skill1.mp4" type="video/mp4"></video>
+            </div>
+          </div>
+          <div id="tabBox5" class="tab_div_box">
+            <div class="con_img con_img_bg"><img src="./images/page3_3_tab5.png" alt="사제_콘스탄스"></div>
+            <!-- <div class="con_btn tab_btnBox">
+              <a href="javascript:void(0);" data-link="./images/video/c5_skill1.mp4"></a>
+              <a href="javascript:void(0);" data-link="./images/video/c5_skill2.mp4"></a>
+            </div> -->
+            <div class="con_video tab_video">
+              <video controls loop="loop"><source data-src="./images/video/c5_skill1.mp4" type="video/mp4"></video>
+            </div>
+          </div>
+          <div id="tabBox6" class="tab_div_box">
+            <div class="con_img con_img_bg"><img src="./images/page3_3_tab6.png" alt="마법사_초코비비"></div>
+            <!-- <div class="con_btn tab_btnBox">
+              <a href="javascript:void(0);" data-link="./images/video/c6_skill1.mp4"></a>
+              <a href="javascript:void(0);" data-link="./images/video/c6_skill2.mp4"></a>
+            </div> -->
+            <div class="con_video tab_video">
+              <video controls loop="loop"><source data-src="./images/video/c6_skill1.mp4" type="video/mp4"></video>
+            </div>
+          </div>
+          <div id="tabBox7" class="tab_div_box">
+            <div class="con_img con_img_bg"><img src="./images/page3_3_tab7.png" alt="기사_준비중"></div>
+          </div>
+          <div id="tabBox8" class="tab_div_box">
+            <div class="con_img con_img_bg"><img src="./images/page3_3_tab8.png" alt="흑마법사_준비중"></div>
+          </div>
+          <div id="tabBox9" class="tab_div_box">
+            <div class="con_img con_img_bg"><img src="./images/page3_3_tab9.png" alt="도적_준비중"></div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="section section4" id="page4">
+      <h2 class="blind">page4 커뮤니티</h2>
+      <div class="bg_img"></div>
+      <div class="con_box">
+        <h2 class="con_tit"><img src="./images/page4_tit.png" alt=""></h2>
+        <div class="con_view">
+          <div class="view_left">
+            <ul class="page4_btn">
+              <li><img src="./images/p4_txt1.png" alt=""></li>
+              <li>
+                <a class="landing-google-link" target="_blank" value="하단">
+                <img src="./images/p4_btn1.png" alt="구글사전예약 버튼"></a>
+                <a class="landing-apple-link"  target="_blank" value="하단">
+                <img src="./images/p4_btn2.png" alt="앱스토어 사전예약 버튼"></a>
+              </li>
+              <li><img src="./images/p4_txt2.png" alt=""></li>
+              <li>
+                <a href="https://cafe.naver.com/lucidadventure" target="_blank">
+                <img src="./images/p4_btn3.png" alt="네이버카페 가기"></a>
+                <a href="https://www.facebook.com/superplanetcorp/" target="_blank">
+               <img src="./images/p4_btn4.png" alt="페이스북"></a>
+                <a href="javascript:void addPlusFriend()">
+                 <img src="./images/p4_btn5.png" alt="카카오플러스친구"></a>
+                 <a href="mailto:support@lucid.zendesk.com" target="_blank">
+                <img src="./images/p4_btn6.png" alt="문의메일"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="view_right">
+            <iframe class="video_iframe" src="https://www.youtube.com/embed/Y6K50krlKWw" frameborder="0" allowfullscreen width="100%" height="100%"></iframe>
+          </div>
+        </div>
+        <div class="con_alert"><a href="mailto:support@lucid.zendesk.com" target="_blank"><img src="./images/page4_txt3.png" alt="tip.스킬명 등 세부내용은 개발사의 사정에 따라 바뀔수 있습니다. 더 좋은 아이디어가 있으신 분은 공식카페나 핫라인에 많은 의견을 남겨주세요!"></a></div>
+      </div>
+    </section>
+
+  </div>
+  <!-- footer -->
+
+  <footer>
+    <address>
+    2018 (v.2.0)
+  </address>
+
+  </footer>
+
+  <!-- footer end -->
+
+
+</body>
+
+</html>

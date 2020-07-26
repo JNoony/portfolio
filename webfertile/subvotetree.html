@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='format-detection' content='telephone=no'>
+    <meta name="naver-site-verification" content="4e1123e59935a32cb0f905c24f4bce20f1e1d576"/>
+    <meta name="keywords" content="스타소식,스타투표,스타카드 수집,표나무,퍼틀,fertile,퍼틀앱">
+    <meta name="description" content="퍼틀[fertile] 팬덤,팬클럽,스타 캐릭터 생성">
+    <meta name="author" content="(주)퍼틀">
+    <title>퍼틀웹</title>
+
+    <link rel="canonical" href="http://www.fertile.co.kr">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!--  base css-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/aba9c5d180.css">
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <link rel="stylesheet" href="./css/respond.css">
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <link rel="stylesheet" href="./css/alertify.css">
+
+</head>
+<body>
+    <header>
+            <div class="topmenu"><div><a href="#">Logout</a></div></div>
+            <div class="head">
+                <h1>
+                    <a href="index.html"></a>
+                </h1>
+                 <nav>
+                    <ul class="f_gnb"></ul>
+                </nav>
+            </div>
+<!--            mobile head-->
+            <aside class="mobile_head">
+               <h3 class="blind">모바일 사이드</h3>
+                <a href="#" class="m_gnb"></a>
+                <div class="mobile_wrap">
+                    <div class="mobile_box_user">
+                        <div class="m_user_nic">
+                            <span>닉네임닉네임닉네임이여기나오면되쥬</span>
+                        </div>
+                        <div class="m_user_info">
+                            <div class="m_user_card">
+                                <img src="./images/img_card/3_b_01.gif" alt="명찰카드">
+                            </div>
+                            <div class="user_data_box">
+                                <div class="m_user_box">
+                                    <a href="myinfo.html">
+                                        <img src="./images/icon_edit.png" alt="내정보아이콘">
+                                        <span>내정보</span>
+                                    </a>
+                                </div>
+                                <div class="m_user_box">
+                                    <a href="#" class="sch_btn">
+                                        <img src="./images/icon_date.png" alt="출석체크">
+                                        <span>출석체크</span>
+                                    </a>
+                                </div>
+                                <div class="m_user_box">
+                                    <div class="m_user_lv">
+                                        <span>인기</span><strong>119,999</strong>
+                                    </div>
+                                </div>
+                                <div class="m_user_box">
+                                    <div class="m_user_lv">
+                                        <span>LEVEL</span><strong>11,556</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile_user_point">
+                            <div class="color1 m_user_p"><span>M </span><strong>211,223</strong></div>
+                            <div class="color3 m_user_p"><span>E </span><strong>3,232,333</strong></div>
+                            <div class="color4 m_user_p"><span>씨앗 </span><strong>234</strong></div>  
+                        </div>
+                    </div>
+                    
+                </div>
+            </aside>
+<!--            mobile head end-->
+        </header>
+<!--    content 내용-->
+    <div class="content">
+        <div class="con_wrap">
+            <h2 class="blind">카드뽑기</h2>
+            <div class="tab tab2">
+                <a href="#" class="tabBtn wid1">카드뽑기</a>
+                <a href="#" class="tabBtn wid1">표나무키우기</a>
+            </div>
+            <div class="list_table">            
+                <div class="box_content box_tree subbox_tree">
+                    <div class="box_left">
+                        <div class="box_left_title">
+                            <div class="titlebar">
+                                <p class="titlebar_left"><img src="./images/titlebar_star.png" alt="별"></p>
+                                <span>LEVEL <strong class="total_level">220</strong></span>
+                                <p class="titlebar_right"><img src="./images/titlebar_star.png" alt="별"></p>
+                            </div>
+                            <div class="levelbar">
+                              <p class="lvbar"></p>
+                                <div>EXP 
+                                    <strong>
+                                        <span class="lvUp">1</span>/<span class="lvTotal">20</span>    
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box_left_tree">
+                            <img src="./images/img_tree/game_tree15.png" alt="표나무">
+                        </div>
+                    </div>
+                    <div class="box_right">
+                        <ul>
+                            <li>
+                                <div>획득예정 표 &#58; <strong class="total_vote color1">220</strong>&#91;금일 자정 이후 획득 예정&#93;</div>
+                            </li>
+                            <li>
+                                <ul class="lv_grow">
+                                    <li>
+                                        <span class="lv_grow_btn lv_grow_btn1"><img alt="물주기" src="./images/game_btn01.png" /></span>
+                                        <span>무료</span>
+                                    </li>
+                                    <li>
+                                        <span class="lv_grow_btn lv_grow_btn2"><img alt="비료주기" src="./images/game_btn02.png" /></span>
+                                        <span>7M/10E</span>
+                                    </li>
+                                    <li>
+                                        <span class="lv_grow_btn lv_grow_btn3"><img alt="햇빛주기" src="./images/game_btn03.png" /></span>
+                                        <span>14M/20E</span>
+                                    </li>
+                                    <li>
+                                        <span class="lv_grow_btn lv_grow_btn4"><img alt="시간초기화" src="./images/game_btn04.png" /></span>
+                                        <span>200M/300E</span>
+                                    </li>
+
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="table_alert">
+                                    ※1일 1회 자신의 현재 <strong class="color1">레벨만큼 표를 투표</strong> 할 수 있습니다.<br>
+                                    ※<strong class="color1">물/비료/햇빛</strong>을 주어 표나무 레벨을 올리 수록 <strong class="color1">투표수가 증가 </strong>합니다.<br>
+                                    ※<strong class="color1">시간초기화</strong>를 하면 바로 물/비료/햇빛을 사용 할 수 있습니다.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="table_box alert_box cardselbox_alert">
+                    <div class="table_btn">
+                        <button type="button" class="btn">랭킹</button>
+                        <button type="button" class="btn">M퍼틀충전</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--    하단-->
+    <footer>
+            <div class="foot">
+                <div class="foot_left">
+                    <h2 class="foot_logo">
+                        <a href="http://fertile.co.kr" target="_blank"></a>
+                    </h2>
+                </div>
+                <div class="foot_right">
+                    <div class="footer_legal">
+                        <ul>
+                            <li><a href="#">개인정보취급방침</a></li>
+                            <li><a href="#">서비스이용약관</a></li>
+                            <li><a href="#">신고하기</a></li>
+                        </ul>    
+                    </div>
+                    <div class="footer_add">
+                       <p>
+                            <span>상호. (주)퍼틀</span>
+                            <span>대표. 김옥균</span>
+                            <span>사업자등록번호. 653-88-00419</span>
+                            <span>주소. 서울특별시 금천구 가산디지털1로 30 1906</span>
+                        </p>
+                        <p>
+                            <span>T. 070-7700-1225</span>
+                            <span>F. 050-8094-1225</span>
+                            <span>E. fertile@fertile.co.kr</span>
+                        </p>
+                        <p class="copy">copyright &#169; 2017 fertile all rights reserved&#46;</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+    <!--    base js-->
+    <script src="https://use.fontawesome.com/c107272b8b.js"></script>
+    <script src="./js/jquery-3.0.0.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/alertify.min.js"></script>
+    <script src="./js/jquery.bxslider.js"></script>
+    <script src="./js/base.js"></script>
+    <script>
+        $(".lv_grow_btn").click(function(){            
+                var $li=$(this).parent('li'),
+                    liIndex=$li.index(),
+                    liBtnName=$li.find('img').attr('alt');
+                
+                /* 포인트팝업 */
+                function pointPop(){
+                    var mp=7,
+                        ep=10
+                    if(liIndex==2){mp=14;ep=20;}
+                    else if(liIndex==3){mp=200;ep=300;}
+                    $('body').append('<div class="popup_div">'+
+                                    '<div class="pp_div pp_div3">'+
+                                        '<p class="p_point_title">비료를 주시겠습니까?<br>사용할 퍼틀틀 선택해 주세요.</p>'+
+                                        '<div class="p_point_btn">'+
+                                            '<a href="#" class="btn btn_close">취소</a>'+
+                                            '<a href="#" class="btn bnt_p">확인</a>'+
+                                            '<a href="#" class="btn bnt_p btn_mPoint">'+mp+'M</a>'+
+                                            '<a href="#" class="btn bnt_p btn_ePoint">'+ep+'E</a>'+
+                                        '</div>'+
+                                    '</div>'+
+                                '</div>');
+                    $('.p_point_btn a').click(function(){$('.popup_div').remove();});
+
+                    if(liIndex==0){ $('.p_point_btn a:nth-child(n+3)').remove(); }
+                    else if(liIndex==1){ $('.p_point_btn a:nth-child(2)').remove();}
+                    else if(liIndex==2){$('.p_point_btn a:nth-child(2)').remove();}
+                    else if(liIndex==3){$('.p_point_btn a:nth-child(2)').remove(); }
+                } 
+                
+                 // 타이머 시작 
+                var starTime;
+                
+                function startInterval(){
+                    var timer = 3 * 3600,
+                        hh, mm, ss;
+                    
+                    starTime = setInterval(function(){
+                        hh = parseInt(timer / 3600, 10);
+                        mm = parseInt(timer / 60 % 60, 10);
+                        ss = parseInt(timer % 60, 10);
+
+                        hh = hh < 10 ? "0" + hh : hh;
+                        mm = mm < 10 ? "0" + mm : mm;
+                        ss = ss < 10 ? "0" + ss : ss;
+
+                        $li.find('.time').text(hh+':'+mm+':'+ss);
+
+                        if(timer > 0) timer--;
+                        else{
+                            timer = 0;
+                            clearInterval(starTime);
+                            $li.find('.time').remove();
+                        }
+
+                    },1000);                      
+                }
+                 
+                 function stopInterval(){                     
+                    clearInterval(starTime);
+                    $('.time').remove();
+                    location.reload();
+                 }
+
+                /************
+                  gif이미지
+                ************/
+                var GifImg={
+                    grow : function(a,b){                
+                        $li.append('<strong class="time color1">'+ startInterval() +'</strong>');
+        
+                        $(".box_left_tree").append('<div class="pop_grow"><img src="./images/grow'+(liIndex+1)+'.gif"></div>'+
+                                                    '<div class="pop_point"><img src="./images/num0'+(liIndex+1)+'.png"></div>');
+                        //숫자이미지
+                        $(".pop_point").animate({ top:25+'%',opacity:0, transition:0.5+'s'},300);  
+                        //btn 이미지div fadeOut
+                        setTimeout(function(){ $(".pop_grow").delay(2000).fadeOut('fast'); });
+                        
+                        $(".pop_grow").css({ top: a + "%" , left: b + "%" });
+                    },
+                    point : function(num){
+                        var lvTotal = parseInt($('.lvTotal').text()),
+                            lvUp = parseInt($('.lvUp').text());
+                        
+                        $('.levelbar .lvbar').css({width: (lvUp+num)*100 / lvTotal + '%'});
+          
+                        $('.lvUp').text(lvUp+num);
+                        //level up success
+                        if(lvUp+num >= lvTotal){
+                            $(".list_table").append('<div class="popup_card popup_bg">'+
+                                            '<div class="pop_card" style="background:none;margin:25% auto;">'+
+                                                '<p class="pop_leverup" style="width:100%;"><img style="width:100%;" src="./images/pop_levelup.png"></p>'+
+                                            '</div>'+
+                                    '</div>');
+                            setTimeout(function(){
+                                $(".popup_card").delay(1000).fadeOut('fast');
+                                $('.levelbar .lvbar').css({width: (lvUp+num - lvTotal)*100 / lvTotal + '%'});
+                                $('.lvTotal').text(lvTotal+10);
+                                $('.lvUp').text(lvUp+num-lvTotal);
+                            });
+                        }   
+                    },
+                };
+                 
+                if($li.find('.time').text() == ''){
+                    pointPop();
+                     $('.bnt_p').on('click',function(){
+                        if(liIndex==0){ GifImg.grow(30,2);GifImg.point(5);}
+                        else if(liIndex==1){ GifImg.grow(55,50);GifImg.point(10);}
+                        else if(liIndex==2){ GifImg.grow(10,60);GifImg.point(15);}
+                        else{ stopInterval(); }
+                    });
+                }else{
+                    alert('아직 대기시간이 남아 있어 '+ liBtnName +'를 실행 할 수 없습니다.');
+                    $('.bnt_p').off('click');
+                    return false;
+                }
+            });  
+    </script>
+</body>
+</html>

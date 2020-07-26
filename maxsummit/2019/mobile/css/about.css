@@ -1,0 +1,86 @@
+/* wrap{height:100vh;} */
+section{height:100%;box-sizing: border-box;}
+.article_page1{width:90%;margin:25% auto 0;}
+
+.shadow{box-shadow: 0 0 6px rgba(255,162,162,0.5);}
+.shadow2{box-shadow:0 -1px 5px rgba(255,51,64,0.1),0 -1px 5px rgba(111,30,140,0.1);}
+
+.sec_box3{top:72vh;left:-5%;transform: rotate(-90deg);}
+.sec_box2{top:140vh;transform: rotate(-180deg);width:300px;height:270px;}
+/* .article_page3:before{content: '';background:url(../images/m_main_bg05.png) no-repeat;background-size: cover;width:200px;height:210px;transform: rotate(-180deg);
+z-index: -1;position: absolute;top:30vh;right:-20%;} */
+
+
+.article_page1{text-align:center;}
+.article_page1 .sec_top p{color:#111;letter-spacing:-1.5px;}
+.article_page1 .sec_top .top_txt1{font-size:1.4em;line-height:1.3em;text-transform: uppercase;}
+.article_page1 .sec_top .top_txt1 strong{display: block;}
+.article_page1 .sec_top .top_txt2{margin-top:10px;font-size:0.76em;letter-spacing:-1px;line-height:1.7;}
+
+.article_page1 .sec_bottom{width:96%;margin:auto;position: relative;}
+.article_page1 .sec_bottom .sec_bottom_text{background:#fff;width:99%;padding-bottom:10px;margin:20px auto 0;box-sizing: border-box;}
+.article_page1 .sec_bottom:before{content:'';position: absolute;top:-10px;left:-10px;width:50%;height:60%;
+background: linear-gradient(145deg, rgba(255,51,64,0.2) 20%, rgba(111,30,140,0.2) 75%);z-index:-1;opacity:0.2;}
+.article_page1 .sec_bottom:after{content:'';position: absolute;bottom:-15px;right:-20px;width:100%;height:100%;
+background: linear-gradient(145deg, rgba(255,51,64,0.2) 20%, rgba(111,30,140,0.2) 75%);z-index:-1;opacity:0.1;}
+.article_page1 .sec_bottom .sec_bottom_text li{ width:95%;text-align:left;margin:0 auto 0;}
+.article_page1 .sec_bottom .sec_bottom_text li>div{display:inline-block;vertical-align: middle; }
+.article_page1 .sec_bottom .sec_bottom_text li .icon_img{width:22%;height:80px;}
+.article_page1 .sec_bottom .sec_bottom_text li:nth-child(1) .icon_img{background:url(../images/m_about_icon01.png) no-repeat 100% center;background-size:80%;}
+.article_page1 .sec_bottom .sec_bottom_text li:nth-child(2) .icon_img{background:url(../images/m_about_icon02.png) no-repeat 100% center;background-size:80%;}
+.article_page1 .sec_bottom .sec_bottom_text li:nth-child(3) .icon_img{background:url(../images/m_about_icon03.png) no-repeat 100% center;background-size:80%;}
+
+.article_page1 .sec_bottom .sec_bottom_text li .icon_txt{color:#444;width:72%;}
+.article_page1 .sec_bottom .sec_bottom_text li .icon_txt strong{display: block;font-size:.9em;}
+.article_page1 .sec_bottom .sec_bottom_text li .icon_txt span{display: block;font-size:.7em;letter-spacing: -1px;}
+
+.article_page2{margin-top:110px;}
+.article_page2 .article_title{text-align: center;color:#111;font-size:1.2em;letter-spacing: -1px;}
+.history_tab{position: relative;background:#fff;}
+.history_tab .history_nav{ width:90%;margin:0 auto;text-align:center;}
+.history_tab .history_nav li{display: inline-block;width:23%;text-align: center;color:#a3a3a3;padding:8px 0;cursor: pointer;}
+.history_tab .history_nav li.on{font-weight: bold;color:#111;}
+
+.history_tab .history_con{width:100%;height:42vh;position: absolute;top:40px;left:0;}
+.con_2015{background:url(../images/m_history_01.png) no-repeat;background-size: cover;}
+.con_2016{background:url(../images/m_history_02.png) no-repeat;background-size: cover;}
+.con_2017{background:url(../images/m_history_03.png) no-repeat;background-size: cover;}
+.con_2018{background:url(../images/m_history_04.png) no-repeat;background-size: cover;}
+
+.history_con>div{width:90%;margin:0 auto;}
+.title_year{font-size:3.5em;font-family: 'Monoton', cursive;color:#fff;margin-top:20%;text-align: center;}
+.history_con>div>ul{width:100%;background:#fff;margin-top:15%;padding:3% 5%;box-sizing: border-box;min-height:300px;position: relative;}
+.history_con_title {font-size:1.3em;line-height:1.1em;position: relative;color:#111;letter-spacing:-1px;}
+.history_con_title strong span{font-size:.8em;display:block;line-height:1.3em;}
+.num{position: absolute;top:0;right:0;}
+.num .small{display: inline-block;font-size:.8em;}
+.history_con_txt{width:98%;margin:10px auto 0;font-size:.7em;color:#111;line-height:1.3em;}
+.history_con_txt>ul>li{list-style:disc;margin-left:3%;}
+.history_view{text-align: center;position: absolute;bottom:5%;left:0;right:0;}
+.history_view>a{width:100px;height:30px;line-height:30px;text-transform: uppercase;}
+
+.history_view:hover>a{background:#ff0000;color:#fff;}
+
+.history_btn{position: relative;background:gray;z-index:500;}
+.history_btn .button{width:50px;height:20px;position: absolute;top:100px;}
+.history_btn .button.prev{left:0;background:url(../images/m_icon_03.png) no-repeat center;background-size:70%;transform: rotate(90deg);}
+.history_btn .button.next{right:0;background:url(../images/m_icon_03.png) no-repeat center;background-size:70%;transform: rotate(-90deg);}
+
+.article_page3{margin-top:90vh;}
+.article_page3 .max_rollcon{}
+.article_page3 .max_rollcon .rolling_con ul{overflow: hidden;padding:5% 0;box-sizing: border-box;background:#fff;}
+.article_page3 .max_rollcon .rolling_con ul li{float: left;width:33.3%;min-height:77px;height:100%;position: relative;overflow: hidden;}
+.article_page3 .max_rollcon .rolling_con ul li a{display: block;width:100%;height:100%;}
+.article_page3 .max_rollcon .rolling_con ul li a img{width:120%;position: absolute;top:0;left:0;bottom:0;right:0;margin: auto;border:none;padding:0;}
+/* .article_page3 .max_rollcon .rolling_con ul li img{width:100%;height:100%;position: absolute;top:0;left:0;bottom:0;right:0;margin: auto;} */
+
+/* .article_page3 .max_rollcon .rolling_con ul li:hover img{transform: scale(1.3);transition:.7s;} */
+.article_page3 .max_rollcon .rolling_con ul li:hover a img{transform: scale(1.3);transition:.7s;}
+.article_page3 .max_rollcon .rolling_con ul li:hover a:after{position: absolute;top:0;left:0;content:'+';width:100%;height:100%;font-size:2.5em;line-height: 2;
+font-family:'Montserrat', sans-serif;text-align: center;color:#fff;background:linear-gradient(145deg, rgba(255,51,64,0.8) 20%, rgba(111,30,140,0.8) 75%); }
+
+.baguetteBox-button{background-color:none;}
+
+.img_x {width:15px;position: relative;}
+.img_x svg{text-align: center;vertical-align:text-bottom;position: absolute;bottom:-14px;right:-5px;}
+.img_x svg path{fill:#444;}

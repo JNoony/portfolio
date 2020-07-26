@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name='format-detection' content='telephone=no'>
+    <meta name="naver-site-verification" content="4e1123e59935a32cb0f905c24f4bce20f1e1d576"/>
+    <meta name="keywords" content="스타소식,스타투표,스타카드 수집,표나무,퍼틀,fertile,퍼틀앱">
+    <meta name="description" content="퍼틀[fertile] 팬덤,팬클럽,스타 캐릭터 생성">
+    <meta name="author" content="(주)퍼틀">
+    <title>퍼틀웹</title>
+
+    <link rel="canonical" href="http://www.fertile.co.kr">
+    <link rel="shortcut icon" href="favicon.ico">
+
+<!--    base css-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/aba9c5d180.css">
+    <link rel="stylesheet" href="./css/jquery-ui.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/sub.css">
+    <link rel="stylesheet" href="./css/respond.css">
+    <link rel="stylesheet" href="./css/jquery.bxslider.css">
+    <link rel="stylesheet" href="./css/alertify.css">
+
+</head>
+<body>
+    <header>
+            <div class="topmenu"><div><a href="#">Logout</a></div></div>
+            <div class="head">
+                <h1>
+                    <a href="index.html"></a>
+                </h1>
+                <nav>
+                    <ul class="f_gnb"></ul>
+                </nav>
+            </div>
+<!--            mobile head-->
+            <aside class="mobile_head">
+               <h3 class="blind">모바일 사이드</h3>
+                <a href="#" class="m_gnb"></a>
+                <div class="mobile_wrap">
+                    <div class="mobile_box_user">
+                        <div class="m_user_nic">
+                            <span>닉네임닉네임닉네임이여기나오면되쥬</span>
+                        </div>
+                        <div class="m_user_info">
+                            <div class="m_user_card">
+                                <img src="./images/img_card/3_b_01.gif" alt="명찰카드">
+                            </div>
+                            <div class="user_data_box">
+                                <div class="m_user_box">
+                                    <a href="myinfo.html">
+                                        <img src="./images/icon_edit.png" alt="내정보아이콘">
+                                        <span>내정보</span>
+                                    </a>
+                                </div>
+                                <div class="m_user_box">
+                                    <a href="#" class="sch_btn">
+                                        <img src="./images/icon_date.png" alt="출석체크">
+                                        <span>출석체크</span>
+                                    </a>
+                                </div>
+                                <div class="m_user_box">
+                                    <div class="m_user_lv">
+                                        <span>인기</span><strong>119,999</strong>
+                                    </div>
+                                </div>
+                                <div class="m_user_box">
+                                    <div class="m_user_lv">
+                                        <span>LEVEL</span><strong>11,556</strong>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile_user_point">
+                            <div class="color1 m_user_p"><span>M </span><strong>211,223</strong></div>
+                            <div class="color3 m_user_p"><span>E </span><strong>3,232,333</strong></div>
+                            <div class="color4 m_user_p"><span>씨앗 </span><strong>234</strong></div>  
+                        </div>
+                    </div>
+                    
+                </div>
+            </aside>
+<!--            mobile head end-->
+        </header>
+<!--    content 내용-->
+    <div class="content">
+        <div class="con_wrap">
+            <div class="list_table">
+                <form>
+                    <ul class="list_box mboard_box">
+                        <li><input type="text" class="board_title" placeholder="제목" maxlength="20"></li>
+                        <li><textarea class="board_content" maxlength='3000'></textarea></li>
+                        <li><input type="text" class="link_origin" placeholder="출처"></li>
+                    </ul>
+                    <div class="board_btn">
+                        <div class="board_link_btn">
+                            <input class="b_img" type="file" maxlength="10" accept="image/*" id="ssi-upload3" multiple>
+                            <a href="#" class="b_link"></a> 
+                        </div>
+                        <div class="table_btn">
+                            <button type="button" class="btn">취소</button>
+                            <button type="button" class="btn btn3">확인</button>
+                        </div>
+                        <div class="img_view_box"></div>
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer>
+            <div class="foot">
+                <div class="foot_left">
+                    <h2 class="foot_logo">
+                        <a href="http://fertile.co.kr" target="_blank"></a>
+                    </h2>
+                </div>
+                <div class="foot_right">
+                    <div class="footer_legal">
+                        <ul>
+                            <li><a href="#">개인정보취급방침</a></li>
+                            <li><a href="#">서비스이용약관</a></li>
+                            <li><a href="#">신고하기</a></li>
+                        </ul>    
+                    </div>
+                    <div class="footer_add">
+                       <p>
+                            <span>상호. (주)퍼틀</span>
+                            <span>대표. 김옥균</span>
+                            <span>사업자등록번호. 653-88-00419</span>
+                            <span>주소. 서울특별시 금천구 가산디지털1로 30 1906</span>
+                        </p>
+                        <p>
+                            <span>T. 070-7700-1225</span>
+                            <span>F. 050-8094-1225</span>
+                            <span>E. fertile@fertile.co.kr</span>
+                        </p>
+                        <p class="copy">copyright &#169; 2017 fertile all rights reserved&#46;</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!--    base js-->
+    <script src="https://use.fontawesome.com/c107272b8b.js"></script>
+    <script src="./js/jquery-3.0.0.min.js"></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="./js/alertify.min.js"></script>
+    <script src="./js/jquery.bxslider.js"></script>
+    <script src="./js/base.js"></script>
+    <script src="./js/ssi-uploader.js"></script>
+    <script>
+        $(function(){
+            //file upload
+            $('#ssi-upload3').ssi_uploader({
+                 url: 'uploadAction.php',
+                 maxNumberOfFiles:10,
+                 errorHandler: {
+                        method: function (msg, type) {
+//                            ssi_modal.notify(type, {content: msg});
+                        },
+                        success: 'success',
+                        error: 'error'
+                    },
+                 maxFileSize: 5,//mb
+                 dropZone: false,
+                 allowed: ['jpg', 'gif', 'txt', 'png', 'pdf'],
+                 onEachUpload:function(file){console.log(file)},
+                 BeforeEachUpload:function(fileInfo,xhr){
+                   if(fileInfo.name=='noImage.jpg'){
+                     throw new Error('custom message');
+                   }
+                 },
+                
+             });
+            
+            //link
+            $('.board_link_btn>a').click(function(){
+                popup()
+            })
+            function popup(){
+                $(".popup_div").remove();
+
+                var pop="";
+                pop=pop+'<div class="popup_bg popup_div" style="z-index:100;">'+
+                    '<div class="pp_div">'+
+                            '<p class="pop_title" style="text-align:left;">링크</p>'+
+                            '<ul class="pop_cont">'+
+                                '<li style="width:100%;"><input type="text" class="pop_input pop_link" placeholder="http://"></li>'+
+                            '</ul>'+
+                            '<div class="pop_btn">'+
+                                '<button type="button" class="btn btn_reset">취소</button>'+
+                                '<button type="button" class="btn btn_submit">확인</button>'+
+                            '</div>'+
+                     '</div>'+
+                        '</div>';
+
+                $(".con_wrap").append(pop);
+                $(".btn_reset").click(function(){ $(".popup_div").hide(); });
+                
+                $(".btn_submit").click(function(){ 
+                    $('.mboard_box li').eq(3).remove();
+                    var link_val=$('.pop_link').val();
+                    if(link_val==''){
+                        alertify.alert('정확한 주소를 입력하세요')
+                    }else{
+                        $('.mboard_box').append('<li><input type="text" class="link_add" readonly value="http://'+link_val+'"></li>')
+                        $(".popup_div").hide();
+                    }
+                });
+            }
+            
+            if(!$('#ssi-upload3').is(':visible')){ $('.b_link').css({left:0}) }
+        });
+    </script>
+</body>
+</html>

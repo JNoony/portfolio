@@ -1,0 +1,38 @@
+# http는 https로 모두 301 리다이렉트
+# prod는 실제 도메인으로 리다이렉트
+
+[[redirects]]
+from = "https://mobintouch-prod.netlify.com/*"
+to = "https://mobintouch.co.kr/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "http://mobintouch-prod.netlify.com/*"
+to = "https://mobintouch.co.kr/:splat"
+status = 301
+force = true
+
+[[redirects]]
+from = "http://mobintouch.co.kr/*"
+to = "https://mobintouch.co.kr/:splat"
+status = 301
+force = true
+
+
+# React Router 를 사용하기 위한 Root로 보내는 설정
+# force false를 한 경우 URL은 변경되지 않는다.
+ [[redirects]]
+ from = "/*"
+ to = "/"
+ status = 200
+ force = false
+
+
+
+
+
+
+
+
+

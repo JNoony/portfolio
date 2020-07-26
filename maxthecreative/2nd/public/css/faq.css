@@ -1,0 +1,83 @@
+.faq-box {
+    font-size: 1.2rem;
+    padding:2% 0;
+    word-break: keep-all;
+    font-weight:400;
+    position: relative;
+    border-bottom:1px solid #d9dee1;
+    position: relative;
+}
+.faq-box:after{
+    font-family: 'Material Icons';
+    content:'keyboard_arrow_down';
+    position: absolute;top:20px;bottom:0;right:0;
+    font-size: 3rem;color:#d9dee1;
+}
+.faq-box.active:after{ content:'keyboard_arrow_up'; }
+/* .faq-box:first-child{border-top:2px solid #d9dee1;} */
+.faq-box:first-child{border-top:4px solid #111;}
+.faq-box-text span{
+    display: inline-block;
+    vertical-align: top;
+    width:5%;
+}
+.faq-box-text .small{ font-size: 1rem; }
+.faq-box-text span.full{ width:92%;font-size: 1.125rem;vertical-align: top; }
+.faq-box-text a{ text-decoration-line: underline;color:#4285f4; }
+
+/* material custom */
+.collapsible{border:none;box-shadow: none;margin:0;}
+.collapsible-header{width:100%;}
+.collapsible-header,.collapsible-body{
+    border:none;font-family: SpoqaHanSans;
+}
+.collapsible-body{padding:1rem;text-align: left;}
+.collapsible.popout > li{ box-shadow: none; }
+.collapsible.popout > li.active{ 
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+    margin:0;
+    border:none; 
+}
+
+
+
+
+/****** Media Query *************/
+/* pc ----------------*/
+@media screen and ( max-width:1399px ){}
+@media screen and ( max-width:1280px ){}
+@media screen and ( max-width:1140px ){
+    .faq-box{font-size: 1.333rem;}
+}
+@media screen and ( max-width:970px ){
+    .faq-box-text span{width:5%;}
+    .faq-box-text span.full{width:95%;letter-spacing: -.1em;}
+}
+/* tab ----------------*/
+@media screen and ( max-width:799px ){
+    .faq-box-title{}
+    .faq-box{font-size: 1rem;}
+    .faq-box-text span{width:10%;}
+    .faq-box-text span.full{ width:89%;}
+}
+/* mobile ----------------*/
+@media screen and ( max-width:600px ){
+    .section-faq{height: 75vh;}
+    .section-faq .section-con-txt{text-align: left;}
+
+    .faq-box{border-bottom-width: 1px;}
+    .faq-box:first-child{border-top-width: 1px;}
+    .faq-box-text .small{font-size: .9375rem;margin-top:2px;}
+    .faq-box-text span.full{font-size: .85rem;word-break: keep-all; }
+    .faq-box:after{font-size: 2rem;top:8px;}
+
+    .collapsible-header{width:95%;}
+}
+@media screen and ( max-width:500px ){
+    .faq-box{font-size: 1rem;}
+    /* .faq-box:after{top:-5px;} */
+}
+/* ios7/8/8+ */
+@media screen and (min-width: 374px) and (max-width: 414px){}
+/* ios5/se */
+@media screen and (max-width: 359px){}
