@@ -10,23 +10,18 @@
 |       |Mobidays    | |
 |2019   |Mobintouch  | |
 |       |MaxTheCreative    | |
-|       |  + Maxthecreative 2nd | [준비중] |
-|       |  + Maxthecreative 1st | [준비중] |
+|       |  + Maxthecreative 2nd <br/> + Maxthecreative 1st | [준비중] <br/> [준비중] |
 |       |Maxsummit 2019    | [준비중] |
 |       |Promotion    | |
-|       |+ Superplanet    | [준비중] |
-|       |+ AIA_Vitality   | [준비중] |
+|       |+ Superplanet  <br/> + AIA_Vitality  | [준비중] <br/> [준비중] |
 |       |Mobiconnect    | |
 |       |+ Mobiconnect admin    | |
 |       |Mobidays    | |
 |2018   |Mobiconnect  | |
-|       |  + integration | [준비중] |
-|       |  + admin | [준비중] |
-|       |  + publisher | [준비중] |
+|       |  + integration <br/> + admin <br/> + publisher | [준비중] <br/> [준비중] <br/> [준비중] |
 |       |Mobidays    | |
 |2017   |fertile  | |
-|       |  + UI/UX design | App (ver.Android) |
-|       |  |  Web +반응형 제작  |
+|       |  + UI/UX design <br/>   App (ver.Android)<br/>   Web |  |
 |       |  + fertile Web  | |
 |       |  + fertile admin | |
 
