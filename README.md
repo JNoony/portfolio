@@ -21,7 +21,7 @@
 |       |  + integration <br/> + admin <br/> + publisher | [준비중] <br/> [준비중] <br/> [준비중] |
 |       |Mobidays    | |
 |2017   |fertile  | |
-|       |  + UI/UX design <br/>   App (ver.Android)<br/>   Web |  |
+|       |  + UI/UX design  | - App (ver.Android)<br/> - Web |
 |       |  + fertile Web  | |
 |       |  + fertile admin | |
 
