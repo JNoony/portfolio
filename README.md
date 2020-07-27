@@ -1,12 +1,12 @@
 # portfolio
 
 ## 2020
-+ mobiconnect 
-  + mobiconnect admin
-  + mobiconnect admin renewal
-+ maxthecreative
-  + maxthecreative 3rd
-+ maxsummit 2020
++ Mobiconnect 
+  + Mobiconnect admin
+  + Mobiconnect admin renewal
++ MaxTheCreative
+  + Maxthecreative 3rd
++ Maxsummit 2020
 + Mobidays
 
 
@@ -14,24 +14,24 @@
 ## 2019
 + Mobintouch
 + MaxTheCreative
-  + maxthecreative 2nd
-  + maxthecreative 1st
+  + Maxthecreative 2nd
+  + Maxthecreative 1st
 + MaxSummit 2019
 + Promotion
-  + superplanet 
+  + Superplanet 
   + AIA_Vitality
-+ mobiconnect
-  + mobiconnect admin
++ Mobiconnect
+  + Mobiconnect admin
 + Mobidays
 
 
 
 ## 2018
 + Mobiconnect
-  + mobiconnect
-  + mobiconnect/integration
-  + mobiconnect admin
-  + mobiconnect publisher
+  + Mobiconnect
+  + Mobiconnect/integration
+  + Mobiconnect admin
+  + Mobiconnect publisher
 + Mobidays
 
 
