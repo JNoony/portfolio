@@ -11,7 +11,7 @@
 
 - fullpage.js 를 이용한 스크롤 페이지 구성
 - 화면 기능 스크립트 작성
-- [코드](https://github.com/JNoony/portfolio/tree/master/promotion/game/src)
+- [[코드](https://github.com/JNoony/portfolio/tree/master/promotion/game/src)]
 
 
 #### 2. AIA_Vitality - 이벤트페이지
@@ -19,7 +19,7 @@
 - 마크업 개발자 1 / 백엔드 1
 - HTML5/CSS3/Javascript
 ```
-- [코드](https://github.com/JNoony/portfolio/tree/master/promotion/event)
+- [[코드](https://github.com/JNoony/portfolio/tree/master/promotion/event)]
 
   
 
