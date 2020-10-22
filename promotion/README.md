@@ -1,4 +1,4 @@
-### Promotion 
+## Promotion 
 
 #### 1. Superplanet - 열랩전사 모바일 사전예약 사이트
 ```
