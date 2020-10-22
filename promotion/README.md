@@ -19,7 +19,7 @@
 - 마크업 개발자 1 / 백엔드 1
 - HTML5/CSS3/Javascript
 ```
--[코드](https://github.com/JNoony/portfolio/tree/master/promotion/event)
+- [코드](https://github.com/JNoony/portfolio/tree/master/promotion/event)
 
   
 
