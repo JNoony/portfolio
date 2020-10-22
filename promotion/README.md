@@ -13,16 +13,12 @@
 - 화면 기능 스크립트 작성
 
 
-1.AIA_Vitality
+#### 2. AIA_Vitality - 이벤트페이지
 ```
 - 마크업 개발자 1 / 백엔드 1
 - HTML5/CSS3/Javascript
 ```
 
-- 이벤트 페이지
-
-
-2.Superplanet
 
   
 
