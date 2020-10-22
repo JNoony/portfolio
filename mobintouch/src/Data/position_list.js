@@ -109,25 +109,6 @@ const data = [
     date:"2019-11-19",
     state:""
   },
-  // { src:process.env.PUBLIC_URL +"/images/position/kint-logo.png", 
-  //   company:"킨트주얼리", position:"브랜드 마케팅 Lead", job:"경력", 
-  //   point:<><span>연봉</span><span>기업 복지 &#38; 문화</span></>,
-  //   location:"서울 종로", pay:"500,000",
-  //   url:"https://forms.gle/PjFMznSKPpyLSL2U7",
-  //   type:"brand contents",
-  //   date:"2019-11-28",
-  //   state:"close"
-  // },
-  
-  // { src:process.env.PUBLIC_URL +"/images/position/smallticket-logo.png", 
-  //   company:"스몰티켓", position:"디지털 마케팅 Lead", job:"경력", 
-  //   point:<><span>연봉</span><span>기업 복지 &#38; 문화</span></>,
-  //   location:"서울 영등포", pay:"500,000",
-  //   url:"https://forms.gle/MGycL1fBpUJ6vSkv9",
-  //   type:"planning",
-  //   date:"2019-11-19",
-  //   state:"close"
-  // },
   { src:process.env.PUBLIC_URL +"/images/position/granmonster-logo.png", 
     company:"그랑몬스터", position:"AE(ATL/IMC)", job:"경력", 
     point:<><span>안정성</span><span>기업 복지 &#38; 문화</span><span>커리어</span></>,
@@ -283,25 +264,6 @@ const data = [
     date:"2019-12-16",
     state:""
   },
-  // // 2019-12-18
-  // { src:process.env.PUBLIC_URL +"/images/position/flysher-logo.jpg", 
-  //   company:"플라이셔", position:"글로벌 퍼포먼스 마케팅", job:"경력", 
-  //   point:<><span>연봉</span><span>기업 복지 &#38; 문화</span><span>커리어</span></>,
-  //   location:"서울 강남", pay:"500,000",
-  //   url:"https://forms.gle/b9HDaWy5Yx773Lpv7",
-  //   type:"performance",
-  //   date:"2019-12-18",
-  //   state:"close"
-  // },
-  // { src:process.env.PUBLIC_URL +"/images/position/theqoos-logo.jpg", 
-  //   company:"더쿠스아이앤씨 (theQoos inc)", position:"글로벌 퍼포먼스 마케팅", job:"경력", 
-  //   point:<><span>연봉</span><span>안정성</span><span>워라밸</span><span>커리어</span></>,
-  //   location:"서울 강남", pay:"500,000",
-  //   url:"https://forms.gle/Znze7jhwgs21ohFZA",
-  //   type:"performance",
-  //   date:"2019-12-18",
-  //   state:"close"
-  // },
   // 2019-12-23
   { src:process.env.PUBLIC_URL +"/images/position/grace-logo.jpg", 
     company:"그레이스인터네셔날", position:"퍼포먼스 마케팅", job:"경력", 
@@ -713,27 +675,6 @@ const data = [
 // <span>기업 복지 &#38; 문화</span> <span>커리어</span>
 
 
-const nowDate = (num)=>{
-  const today = new Date();
-  const y = today.getFullYear();
-  const m = today.getMonth()+1;
-  const d = today.getDate()+num;
-  return `${y}-${m}-${d}`
-}
-data.map((item,i)=>{
-  var newItem = [ '블랭크', '넥스트플레이어', '무신사', '브랜디','그레이스인터네셔날',
-                  '버킷플레이스 (오늘의 집)', '고미', '머스트잇' ]
-                  
-  if( item.company === '블랭크' ||
-      item.company === '넥스트플레이어' || 
-      item.company === '무신사' ||
-      item.company === '브랜디' ||
-      item.company === '그레이스인터네셔날' ||
-      item.company === '버킷플레이스 (오늘의 집)' ||
-      item.company === '고미' ||
-      item.company === '머스트잇' ) 
-  return item.date = nowDate( newItem.reverse().indexOf( item.company )+1 );
-})
 
 export default data ;
 

@@ -12,14 +12,7 @@ const nowDate = ()=>{
   return `${y}-${m}-${d}`
 }
 
-JsonData
-  // .filter((item,i) => {
-  //   const topArr = ['블랭크코퍼레이션','넥스트플레이어','무신사','브랜디','그레이스인터네셔날',
-  //                   '버킷플레이스 (오늘의 집)','고미코퍼레이션','머스트잇'];
-  //   if( item.company === topArr[i] ) 
-  //   return item.company, console.log( item.company )
-  // })
-  .sort( (a,b) => {
+JsonData.sort( (a,b) => {
     let dateA = new Date(a.date).getTime();
     let dateB = new Date(b.date).getTime();
     if( a.state !== 'close' && b.state !== 'close' ){
