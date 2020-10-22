@@ -5,7 +5,7 @@
 |2020   |Mobiconnect       |
 |       |  + admin renewal | -<br>[준비중] |
 |       |MaxTheCreative    |
-|       |  + Maxthecreative 3rd | [https://maxthecreative.co/](https://maxthecreative.co/) <br>[준비중] | 
+|       |  + Maxthecreative 3rd |<a href="https://maxthecreative.co/" taget="_blank">https://maxthecreative.co/</a>  <br>[준비중] | 
 |       |Maxsummit 2020    | [사이트](https://maxsummit.co/)<br>[준비중] | 
 |       |Mobidays    |
 |2019   |Mobintouch  | [사이트](https://mobintouch.co.kr/)<br>| 
