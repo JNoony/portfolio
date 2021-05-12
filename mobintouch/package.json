@@ -39,7 +39,7 @@
     "react-swipe": "^6.0.4",
     "sendmail": "^1.6.1",
     "swipe-js-iso": "^2.1.5",
-    "swiper": "^5.3.0",
+    "swiper": "^6.5.1",
     "tabletop": "^1.6.2"
   },
   "scripts": {
