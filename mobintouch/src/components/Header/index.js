@@ -23,13 +23,12 @@ export default function Header(props) {
   const kakaoAdd =(event)=>{
     if(isMobile() == true){
       // 1:1 채팅 
-      window.Kakao.Channel.chat({
-        // channelPublicId: '_yUfrT' 
-        channelPublicId: '_xmxoWhxb' 
+      window.Kakao.Channel.chat({ 
+        channelPublicId: 'kakao_ID' 
       })
     }else{
       let newWindow = window.open("about:blank");
-      newWindow.location.href = 'http://pf.kakao.com/_xmxoWhxb'
+      newWindow.location.href = 'http://pf.kakao.com/kakao_ID'
     }
   }
 
@@ -91,7 +90,7 @@ export default function Header(props) {
         <p className="alert"> {props.alert} </p> 
       </header>
 
-    {props.class == undefined ? 
+    {props.class === undefined ? 
       <VisualBannerSlide 
         title={props.title}
         text={props.text} /> :

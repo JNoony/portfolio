@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Form from '../../components/Form';
-import Form3 from '../../components/Form3';
 
 export default function ContentsBox(){
     return(
@@ -20,7 +19,6 @@ export default function ContentsBox(){
             </div>
 
             {/* 현재 사용중인 폼 */}
-            {/* <Form3 /> */}
             <Form />
         </section>
     )

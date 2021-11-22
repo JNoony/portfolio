@@ -9,7 +9,8 @@ import { Modal } from 'react-materialize';
 // const API_KEY = 'AIzaSyBefCotMWHy0pVhqTdUyzHCJOsKErNO34g';
 // const SCOPE = 'https://www.googleapis.com/auth/spreadsheets';
 
-const formUrl = 'https://script.google.com/macros/s/AKfycbw3J1Tx0zlO1MhqhQ6bfRfVwt53jNYTl5rewW8cKp0qG-gMIhk/exec'
+// const formUrl = 'https://script.google.com/macros/s/AKfycbw3J1Tx0zlO1MhqhQ6bfRfVwt53jNYTl5rewW8cKp0qG-gMIhk/exec'
+const formUrl = 'https://script.google.com/macros/s/AKfycbwTBJhTMtz3U9Ekn51SknfilZoCzZJ7ys-ALBrZQ7ib0fxeMiU/exec'
 
 export default function FrmTable(){  
     //selsect option

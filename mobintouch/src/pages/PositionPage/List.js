@@ -1,7 +1,5 @@
 import React,
 {useState,useEffect,useCallback } from "react";
-// import { GridLayout } from "@egjs/react-infinitegrid";
-// import InfiniteScroll from 'react-infinite-scroll-component';
 
 import JsonData from '../../Data/position_list.js';
 const nowDate = ()=>{
@@ -70,7 +68,7 @@ export default function List(props){
           Math.floor( getDocumentHeight() ) ) return;
     }else{
       if ( Math.floor(window.innerHeight + getScrollTop() ) !== 
-         Math.floor( getDocumentHeight() ) ) return;
+           Math.floor( getDocumentHeight() ) ) return;
     }
     setIsFetching(true);
   }
@@ -110,7 +108,7 @@ export default function List(props){
     <>
       { listItems.map( (con,i) => (
         <Item 
-          url={con.url}
+          url={'#'}
           key={i}
           class={con.state.length>0 ? 'close' : ''}
           src={con.src} alt={con.company}

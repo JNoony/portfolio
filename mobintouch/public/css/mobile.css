@@ -150,15 +150,16 @@
     .banner-cardBox li:not(:last-child){margin-right:0;}
     .banner-cardBox li{
         flex: none;
-        width:49%;height: 235px;
+        width:49%;
+        /* height: 235px; */
         margin:auto !important;
         margin-right:5px;
         margin-bottom:5px !important;
     }
     .banner-cardBox .card .card-image{height: 60%;}
 
-    .banner-list{top:-74%;}
-    .section-form{ margin: 54% auto 5%; }
+    .banner-list{top:-50vh;}
+    /* .section-form{ margin: 56% auto 5%; } */
     .form-elements{padding:2% 3%;}
     .pure-group{ margin-bottom: 20px;}
     label.pure-group-label, 
@@ -316,7 +317,7 @@
     .banner-cardBox .txt-name-en{font-size: 1rem;}
     .banner-cardBox .txt-mente{font-size: .8rem;}
     .banner-list{top:-70%;}
-    .section-form{margin-top:78%;}
+    /* .section-form{margin-top:78%;} */
     label.pure-group-label .small{display: block;}
     label.pure-group-label, 
     label.pure-group-label.active, 

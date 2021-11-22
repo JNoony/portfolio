@@ -806,6 +806,9 @@ a.card{ display:block; margin:0; }
     padding:2%;
     box-sizing: border-box;
     min-height: 275px;
+
+    display: flex;
+    flex-direction: column;
 }
 .list-con:not(:last-child){ margin-right:8px;}
 .list-con-title{
@@ -829,6 +832,7 @@ a.card{ display:block; margin:0; }
     color: #999;
     font-size:0.875rem;/*14px*/
     text-align: right;
+    margin-top: auto;
 }
 
 
@@ -876,9 +880,9 @@ a.card{ display:block; margin:0; }
 /*----- banner list card - 인터치팀원소개 리스트  */
 .section-contact{ position: relative;}
 .banner-list{
-    position: absolute;left: 0;right:0;
+    /* position: absolute;left: 0;right:0; */
     /* top:-43%; */
-    top:-390px;
+    /* top:-365px;  */
 }
 .banner-cardBox{ 
     display: flex;
@@ -892,17 +896,18 @@ a.card{ display:block; margin:0; }
 .banner-cardBox li .card{
     height:100%;
     border-radius: 10px;
+    margin-top: 0;
 }
 .banner-cardBox li:not(:last-child){
     margin-right:1.5%;
 }
 
 .banner-cardBox .card .card-image{
-    height: 57%;
+    height: 59%;
     display: block;
 }
 .banner-cardBox .card .card-content{
-    height: 43%;
+    /* height: 43%; */
     display: block;
     text-align: center;
     padding:0 15px 5px;
@@ -912,7 +917,7 @@ a.card{ display:block; margin:0; }
     width:55%;height: auto;
     margin: auto;
     position: absolute;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     /* top:10%; */
 }
 .banner-cardBox .txt-name-ko{
@@ -939,7 +944,8 @@ a.card{ display:block; margin:0; }
 .section-form{ 
     width:90%;
     max-width: 850px;
-    margin:17% auto 5%;    
+    /* margin:17% auto 5%;     */
+    margin:3% auto 5%;    
 }
 
 .form-elements{
@@ -1336,12 +1342,12 @@ textarea::placeholder{
     }
 }
 @media only screen and (max-width: 1366px) {
-    .banner-list{top:-358px}
-    .wid{width:80%;}
+    /* .banner-list{top:-358px} */
+    .wid{width:90%;}
     .section-nav-con>div.row{width:70%;}
 }
 @media only screen and (max-width: 1280px){
-    .banner-list{top:-330px}
+    /* .banner-list{top:-330px} */
 
     .ci-imgBox img+p{ font-size: 1.05rem; }
     .section-con-btm .card .card-image{ height:120px; }
@@ -1369,7 +1375,7 @@ textarea::placeholder{
 }
 @media only screen and (max-width: 994px){
     .wid{width: 90%;}
-    .bg-banner{ margin-top:15vh; }
+    /* .bg-banner{ margin-top:15vh; } */
 
     .content-title{ 
         font-size: 2rem; 
@@ -1401,8 +1407,8 @@ textarea::placeholder{
     .section-banner2 .section-con-text{ font-size: 1.65rem; }
 
     /*---- contact page  */
-    .banner-list{top:-37%;}
-    .banner-cardBox li{height: 250px;}
+    .banner-list{top:-25vh;}
+    /* .banner-cardBox li{height: 250px;} */
     .banner-cardBox .card .card-content{padding: 0 9px 5px;}
 
     .infographicsBox .section-con-bottom-box .card .card-content p span{
@@ -1454,7 +1460,7 @@ textarea::placeholder{
 
     .bg-banner .content-title{font-size: 2.25rem;}
     .bg-banner .content-text{font-size: 1.5rem;}
-    .bg-banner{ margin-top: 20vh; }
+    /* .bg-banner{ margin-top: 20vh; } */
     .content-text{font-size: 1rem;}
     .content-title{ font-size: 1.6rem; }
 
@@ -1620,12 +1626,12 @@ textarea::placeholder{
 
 @media only screen and (max-width: 665px){
     .visual-banner{ height: 45vh;background-position: center 0;background-size: auto 45vh;}
-    .bg-banner{ margin-top:10vh; }
+    /* .bg-banner{ margin-top:10vh; } */
     .visual-text-con{width:100%;text-align: center;}
     .bg-banner .mobi-logo.big{height: 25%;}
     .visual-text-img img{width:80%;}
 
-    .content-text{ font-size: 1rem;margin-bottom:3rem; }
+    .content-text{ font-size: 1rem;/*margin-bottom:3rem;*/ }
     .content-title{ font-size: 1.4rem; }
     .section-con-label{ font-size: 1rem; }
     .card .card-content p span{ font-size: .95rem; }

@@ -41,7 +41,7 @@ export default function Nav(props){
     const kakaoAdd = (event) => {
         // 1:1 채팅 
         window.Kakao.Channel.chat({
-          channelPublicId: '_yUfrT' 
+          channelPublicId: 'kakao_ID' 
         })
     }
     
@@ -52,7 +52,7 @@ export default function Nav(props){
             ref={ (drop) => {drop = drop} } >
             { navName.map( (con,i)=>{
                 return(
-                    <li className={`gnb-li ${ window.location.pathname == con.href ? 'on' : ''}`} 
+                    <li className={`gnb-li ${ window.location.pathname === con.href ? 'on' : ''}`} 
                         key={i} >
                         <Link to={con.href} rel="noopener noreferrer" 
                             onClick={handleClick} >
@@ -73,5 +73,6 @@ export default function Nav(props){
 const navName = [
     { href:'/company', class:'company', name:'company'  },
     { href:'/marketer', class:'marketer', name:'marketer'  },
+    { href:'/partner', class:'position', name:'채용 포지션'  },
     { href:'/contact', class:'contact', name:'문의하기'  },
 ]
