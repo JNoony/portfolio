@@ -1,0 +1,15 @@
+.not-container{}
+.not-container .head .mobi-logo{ visibility: visible;text-indent: 0; }
+.not-container .head .mobi-logo img{width:200px;vertical-align:middle;}
+
+.not-contents{padding:7% 0;text-align: center;}
+.not-contents h3{margin: 3% 0;word-break: keep-all;}
+.not-contents .contents-sub-text{word-break: keep-all;}
+
+.not-contents .btn-area{padding:2%;margin-top:5%;}
+
+@media only screen and (max-width: 600px){
+    .not-contents h3{font-size: 1.8rem;}
+    .not-contents .contents-sub-text{font-size: .9rem;}
+    .not-container .btn-style{font-size: 1.2rem;padding: .7rem 2.7rem;}
+}

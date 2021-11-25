@@ -10,7 +10,7 @@ import {
   useLocation
 } from "react-router-dom";
 
-// import Mobintouch from '/mobintouch/src/index.js'
+import Mobintouch from './mobintouch/shared/MobintouchPage'
 
 
 let originURL = window.location.origin;
@@ -18,18 +18,20 @@ let originURL = window.location.origin;
 function App() { 
   return (
     <div className="App">
-      <div>ㅠㅠㅠ</div>
-      <a href={`${originURL}/webfertile/`} className="btn-style waves-effect waves-red" target="_blank">webfertile</a>
-      <a href={`${originURL}/promotion/game/src/`} className="btn-style waves-effect waves-red" target="_blank">promotion</a>
-      <a href={`${originURL}/maxsummit/`} className="btn-style waves-effect waves-red" target="_blank">maxsummit 2019</a>
-      <a href={`${originURL}/mtc1st/`} className="btn-style waves-effect waves-red" target="_blank">MaxTheCreative 2019 1st</a>
-      <a href={`${originURL}/mobintouch/`} className="btn-style waves-effect waves-red" target="_blank">mobintouch</a>
-      {/* <Router>
+      <h2>포트폴리오 데모페이지 허브사이트</h2>
+      <ul>
+        <li><a href={`${originURL}/webfertile/`} target="_blank">webfertile</a></li>
+        <li><a href={`${originURL}/promotion/game/src/`} target="_blank">promotion</a></li>
+        <li><a href={`${originURL}/maxsummit/`} target="_blank">maxsummit 2019</a></li>
+        <li><a href={`${originURL}/mtc1st/`} target="_blank">MaxTheCreative 2019 1st</a></li>
+        <li><Link to="/mobintouch" target="_blank" rel="noopener noreferrer">Mobintouch</Link></li>
+      </ul>
+
+      <Router>
         <Switch>
-          <Route path="/mobintouch" exact component={Mobintouch}>[DEMO] 모비인터치</Route>
-          <Route path="/mtc2nd" exact component={MTC1st}>[DEMO] 맥스더크리에이티브 2nd</Route>
+          <Route path="/mobintouch" component={Mobintouch} />
         </Switch>
-      </Router> */}
+      </Router>
     </div>
   );
 }

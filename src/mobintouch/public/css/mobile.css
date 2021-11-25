@@ -1,0 +1,477 @@
+@charset "utf-8"; 
+/* ---------------- 
+*
+* @ mobile
+* 
+* ----------------- */ 
+@media only screen and (max-width: 600px){
+    .pc{display: none;opacity: 0;}
+    .mobile{display: block;opacity: 1;}
+
+    .btn-style{ 
+        padding:20px 32px;
+        font-size: 1rem;
+    }
+
+    .foot-wrap{padding:4%;}
+    .foot-box{vertical-align: top;}
+    .foot-box1{ width:29%; }
+    .foot-box2{ width:70%;margin-left: 0%; }
+    .foot-copy{ margin-top: 0; }
+
+    .modal-bgFull .section-con-box{height: 300px;}
+
+
+
+    .section{ padding: 4rem 0 1.5rem; }
+    
+    .section-con{ padding: 5rem 0;}
+    .section-nav-con .row .col.s12{
+        width:49%;
+        padding:5px 2px;
+    }
+    .section-nav-con-box .card-img{min-height:0;height:150px;background-size:80%;}
+    .card-img1:after{ background-size:70%; }
+    .card-img2:after{ background-size:12%;background-position:73% 40%; }
+
+    /* BoxIcon */
+    .section-con-title{ font-size: 1.6rem;margin:1rem 1.5rem; }
+    .card .card-content p span{ font-size: .8rem; }
+    .marketer-con-top-box+p{ margin-bottom: 30%; }
+    .section-con-top .card .card-content{line-height: 1;}
+
+    .card-btn{ 
+        font-size:1rem;
+        padding:13px 0;
+    }
+    .section-banner.center-align .card-btn{
+        padding:20px 32px;width:65%;
+    }
+
+    /*------ client logo */
+    .section-client{margin:50px auto;}
+    .section-client img{
+        width: 95%;
+        margin:auto;
+    }
+
+    /*------ list - 이직 후기 */
+    .listCard-content{ flex-flow: column; }
+    .list-con:not(:last-child){margin-right:0;}
+    .list-con:not(:first-child){margin-top:10px;}
+    .list-con{
+        min-height: 190px;
+        padding:5% 6%;
+    }
+    .list-con-title{ font-size: 1.125rem;/*18px*/ }
+    
+    /*------ BannerLink - contact 버튼있는... */
+    .section-banner.left-align{padding:10% 5%;}
+    .section-banner.left-align .card-btn{ margin:auto;margin-top:10px;width:50%; }
+    .section-banner.left-align .section-banner-mail{ flex-flow: column; }
+    .section-banner.left-align .banner-contents{width: 100%;}
+    .section-con-title.banner-title{font-size: 1rem;/*16px*/ }
+    .section-banner-mail .card-btn{margin-top:10px;}
+    
+
+    /*------ BoxIcon/BoxIconButton/BoxIconInfo 
+            - materialize 수정 */
+    .card{margin:0;}
+    .card .card-content{padding:5px;}
+    .section-con-top-box .card{margin-bottom: 3rem;}
+    .row .col.s4{margin:0;padding:0;}
+    /*------------------------------------------*/
+    .info-icon{
+        flex: inherit;
+        width: 50%;
+        /* margin: auto; */
+        margin-left:0;
+    }
+
+    .m-3w .info-icon{width:33%;margin-left:0;}
+    .m-4w .info-icon{width:25%;margin-left:0;}
+    .m-5w .info-icon{width:20%;margin-left:0;}
+
+    .section-conBox .card .card-image,
+    .section-con-top .card .card-image{
+        height: 130px;
+    }
+    .section-con-top .card .card-image::after, 
+    .section-con-top .card .card-image::before{
+        top:-11px;
+    }
+    .section-con-top.partner-con-top li:nth-child(2).move .card .card-content:before{
+        top:-150%;
+    }
+    .section-con-top.marketer-con-top li:nth-child(1).move .card .card-image::before, 
+    .section-con-top.marketer-con-top li:nth-child(2).move .card .card-image::before{
+        top:0;
+        height: 117%;;
+    }
+    .section-con-top.business-con-top li:nth-child(3).move .card .card-image::before{
+        height: 107%;
+        top:-9px;
+    }
+
+    .section-con-top .card .card-image img{
+        height: 100%;
+        width: auto;
+    }
+    /* .section-con-top .card .card-image::after, 
+    .section-con-top .card .card-image::before{
+        height: 100%;
+    } */
+    /* .section-con-top .card .card-image{height: 170px; }
+    .section-con-top .card .card-image img{ width:100%;} */
+
+   /*------ linkbutton - 모비 네트워크 */
+   .linkBox-con-btn .btn-style{
+       padding: 12px 25px;
+       font-size: 1rem;
+   }
+   .linkBox-con-logo img{ 
+       max-width: 100px;
+       max-height: 30px;
+   }
+   .linkBox-con:hover{
+    transform: translateY(0);
+    transition: none;
+   }
+
+
+     /*------ client */
+    .section-client .content-title{ margin-bottom:2rem; }
+   
+
+    /*---- contact page  */
+    .banner-cardBox{
+        flex-wrap: wrap;
+    }
+    .banner-cardBox li:not(:last-child){margin-right:0;}
+    .banner-cardBox li{
+        flex: none;
+        width:49%;
+        /* height: 235px; */
+        margin:auto !important;
+        margin-right:5px;
+        margin-bottom:5px !important;
+    }
+    .banner-cardBox .card .card-image{height: 60%;}
+
+    .banner-list{top:-50vh;}
+    /* .section-form{ margin: 56% auto 5%; } */
+    .form-elements{padding:2% 3%;}
+    .pure-group{ margin-bottom: 20px;}
+    label.pure-group-label, 
+    label.pure-group-label.active, 
+    .pure-group-label{ 
+        width:30%;
+        font-size: 1rem;
+    }
+    select, .custom-select,
+    textarea, textarea.pure-group-text{
+        width: 70%;
+    }
+    select.first,
+    select.second{
+        width:100%;
+        font-size: .9rem;
+    }
+    .pure-group:first-child .pure-group-label{
+        vertical-align: top;
+        margin-top:20px;
+    }
+
+
+    input:not([type]), 
+    input[type=text]:not(.browser-default), 
+    input[type=password]:not(.browser-default), 
+    input[type=email]:not(.browser-default), 
+    input[type=url]:not(.browser-default), 
+    input[type=time]:not(.browser-default), 
+    input[type=date]:not(.browser-default), 
+    input[type=datetime]:not(.browser-default), 
+    input[type=datetime-local]:not(.browser-default), 
+    input[type=tel]:not(.browser-default), 
+    input[type=number]:not(.browser-default), 
+    input[type=search]:not(.browser-default), 
+    input.pure-group-text{
+        width: 70%;
+        box-sizing: border-box;
+    }
+    .modal.form{width: 90%;}
+
+    input.pure-group-text.pure-group-number{
+        width:20%;
+    }
+    .button-success.btn-style{
+        padding:20px 0;
+        width:50%;
+    }
+
+    
+
+}
+
+@media only screen and (max-width: 500px){
+    /* .bg-banner{ margin-top:13vh; }
+    .bg-banner .mobi-logo.big{ height: 20%; }
+
+    .bg-banner .content-title{ font-size: 2rem; }
+    .bg-banner .content-text{font-size: 1.2rem; } */
+    .section-con-title{font-size: 1.3rem;}
+    .section-con-text{ 
+        font-size: 1rem; 
+        word-break: keep-all;
+    }
+    .card .card-content .card-title{font-size: .9rem;}
+    .section-banner2 .section-con-text{ font-size: 1rem; }
+    .foot-wrap{ font-size: 1rem; }
+    .section-con-btm-box li.aca:first-child:before{ font-size: 1rem;background-size: 21%;}
+    .section-con-btm-box li.aca+.in:before{ font-size: 1rem;background-size: 24%; top: -6rem;}
+
+    .section-nav-con-box .card-img{ height: 130px; }
+    /* .card-btn{ padding: .9rem 0; } */
+    .section{ padding:2rem 0; }
+    /* .section-con-top .card .card-image{ height: 120px; } */
+    /* .section-con-btm-box .card{height: 90px; } */
+    /* .section-con-top-box{
+        display: flex; 
+        display:-webkit-flex;display:-ms-flex;
+        flex-wrap: wrap;
+        -webkit-box-lines: multiple; -ms-flex-wrap: wrap;
+    } */
+    
+    /* .section-con-top.partner-con-top li:nth-child(2).move .card .card-content:before{ top:-95%;} */
+    .section-con-top-box li{clear: both;}
+    .foot-wrap{ 
+        display: flex; 
+        display:-webkit-flex;display:-ms-flex;
+        flex-wrap: wrap;
+        -webkit-box-lines: multiple; -ms-flex-wrap: wrap;
+     }
+    .section-con-left{display:inline-block;width:62%;margin-right: 0%;}
+    .section-con-right{display:inline-block;width:35%;}
+    .section-con-left .card-btn{ margin: 1.5rem 0 0; }
+    .foot-box1{ width: 29%; }
+    .foot-box2{ width: 71%;}
+    .foot-copy{width:100%;text-align: center;}
+
+    /*------ BoxIcon/BoxIconButton/BoxIconInfo */
+    .section-conBox .card .card-image,
+    .section-con-top .card .card-image{
+        height: 130px;
+    }
+    .section-con-top .card .card-image::after, 
+    .section-con-top .card .card-image::before{
+        top:-11px;
+    }
+    .section-con-top.business-con-top li:nth-child(3).move .card .card-image::before{
+        height: 107%;
+        top:-9px;
+    }
+
+    .section-con-top.partner-con-top li:nth-child(2).move .card .card-content:before{
+        top:-132%;
+    }
+    .section-con-top.marketer-con-top li:nth-child(1).move .card .card-image::before, 
+    .section-con-top.marketer-con-top li:nth-child(2).move .card .card-image::before{
+        top:-21px;
+        height: 122%;
+    }
+
+    /*------ BoxLink */
+    .section-con-btm-box .card{height: 100px;}
+    .section-con-btm .card .card-image{height: 100px;}
+    .section-con-btm .card .card-image img{height: 100%;width:100%;}
+    /* .section-con-btm-box .card{height: 130px;position: relative;}
+    .section-con-btm .card .card-image{width: 40%;height: 130px;}
+    .section-con-btm .card .card-image img{max-height: 130px;}
+    .section-con-btm .card .card-content .card-title{font-size: 1.125rem;}
+    .section-con-btm .card .card-content .card-title+p{font-size: 1rem;} */
+
+
+    /*------ BannerCompo */
+    .section-banner .section-con-text{ 
+        margin-bottom: 1rem; 
+        letter-spacing: -0.08em;
+    }
+
+    /*------ BannerLink */
+    .section-banner.left-align .banner-contents .section-con-title.banner-title{
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    /*------ LinkButton */
+    .section-con-btm-box li.aca:first-child:before,
+    .section-con-btm-box li.aca+.in:before{ 
+        padding-top:3.5rem;
+        top: -5.5rem;
+    }
+
+    /*---- contact page  */
+    .banner-cardBox .card .card-image{height: 55%;}
+    .banner-cardBox li{height: 210px;}
+    .banner-cardBox .txt-name-ko,
+    .banner-cardBox .txt-name-en{font-size: 1rem;}
+    .banner-cardBox .txt-mente{font-size: .8rem;}
+    .banner-list{top:-70%;}
+    /* .section-form{margin-top:78%;} */
+    label.pure-group-label .small{display: block;}
+    label.pure-group-label, 
+    label.pure-group-label.active, 
+    .pure-group-label{ 
+        vertical-align: middle;
+        line-height: 1.5;
+    }
+    .button-success.btn-style{width:80%;}
+    .text-contents{
+        width: 95%;
+        margin-left:5%;
+    }
+    .text-contents>li{
+        font-size: .9rem;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .wid{width:94%;}
+
+
+    /* .bg-banner .content-title{ font-size: 1.4rem; }
+    .bg-banner .content-text{font-size: 1rem; } */
+    .content-title{font-size: 1.25rem;}
+    .section-client .content-title{ font-size: 1rem; }
+    .content-text{font-size: .8rem; }
+    .section-con-title{font-size: 1.25rem;}
+    /* .section-con-text{ font-size: .9rem;letter-spacing: -.05em; } */
+    /* .section-con-text.last-text{font-size: .85rem;letter-spacing: -.08em; } */
+    .card .card-content .card-title{font-size: .7rem;}
+    .section-banner2 .section-con-text{ font-size: 1rem; }
+    .foot-wrap{ font-size: 1rem; }
+    .section-con-btm .card .card-content .card-title{ font-size: 1rem; }
+    .section-con-btm .card .card-content .card-title+p{ font-size: .9rem; }
+    .card .card-content p span{ font-size: .7rem;letter-spacing:-.1em; }
+    .section-banner2 .section-con-text{ font-size: .9rem; }
+    .foot-wrap{ font-size: .8rem; }
+    /* .card-btn{ padding:.5rem 0;font-size:.9rem; } */
+
+
+    .section{padding:2rem 0 1.5rem;}
+    .flexBox-img{margin-bottom:1.5rem;}
+    .card .card-content .card-title{margin-bottom: 5px;}
+    .section-nav-con-box .card-img{ height: 90px; }
+
+    /*----- BoxLink */
+    /* .section-con-btm-box .card{height: 105px;}
+    .section-con-btm .card .card-image{
+        height: 105px;
+    } */
+    .section-con-btm .card .card-image img{
+        /* max-height: none; */
+        /* max-width: none; */
+        /* width: auto;height: 100%; */
+    }
+    /* .section-con-btm .card .card-content{padding:5px;} */
+    
+    .section-con-top .card .card-content{padding:0;}
+    /* .section-con-top .card .card-image{height: 90px;} */
+
+    .section-con-top-box li .card .card-content p span{ letter-spacing: -.14rem; }
+    /* .marketer-con-top-box li.col.s4:nth-child(1){width:30%;}
+    .marketer-con-top-box li.col.s4:nth-child(2){width:38%;}
+    .marketer-con-top-box li.col.s4:nth-child(3){width:32%;} */
+    /* .section-con-top.marketer-con-top li:nth-child(1).move .card .card-image::before{ bottom: -1.2vh; }
+    .section-con-top.marketer-con-top li:nth-child(2).move .card .card-image::before{height: 112px;bottom:-.5vh;} */
+
+    .section-conBox .card .card-image, 
+    .section-con-top .card .card-image{height: 100px;}
+    .section-con-top.marketer-con-top li:nth-child(1).move .card .card-image::before, 
+    .section-con-top.marketer-con-top li:nth-child(2).move .card .card-image::before{
+        top:7px;
+        height: 105%;
+    }
+    .section-con-top.marketer-con-top li:nth-child(3).move .card .card-image::before{
+        height: 94%;
+    }
+
+
+    .modal{ max-width:300px;height:auto;border-radius:0px;box-shadow: none;}
+    .modal-bg{z-index:0;}
+    /* .modal .modal-btn{ border-radius:5px 5px 0 0 ; } */
+    /* .modal .modal-content{padding:.7rem;} */
+    .modal .section-con-title{ margin-top: .5rem;font-size: 1.2rem; }
+    .modal .section-con-left{ width:63%;}
+    .modal .section-banner2 .section-con-text{ font-size: .9rem; }
+    /* .modal .modal-footer{ padding:.5rem 0;border-radius: 0 0 5px 5px; } */
+}
+
+/* ios && 6/7/8 */
+@media only screen and (min-width: 361px) and (max-width: 375px){
+    /* .section-con-top.marketer-con-top li:nth-child(1).move .card .card-image::before{bottom:-.4vh;}
+    .section-con-top.business-con-top li:nth-child(3).move .card .card-image::before{ height: 120%; }
+    .section-con-top.marketer-con-top li:nth-child(2).move .card .card-image::before{height: 114px;bottom:0;}
+    
+    .card-btn{ padding:.8rem 0; }
+    .section-con-left .card-btn{ width:60%; } */
+    /* .modal .modal-content{padding:1rem; } */
+    /* .modal .modal-footer{ padding: .7rem 0; } */
+    /* .modal{ max-height:42vh;height:370px;} */
+}
+
+/* ios && 6/7/8 Plus */
+@media only screen and (min-width: 376px) and (max-width: 414px){
+    /*---- contact page  */
+    .banner-cardBox .card .card-image{height: 60%;}
+    
+}
+
+/* ios && 5/SE */
+@media only screen and (min-width: 320px) and (max-width: 359px) { 
+    .btn-i i{ font-size: 2.5rem; }
+    .section-nav-con-box .card{ padding:.8rem .5rem; }
+
+    .content-text{ font-size: .7rem; }
+    .section-con-title{ font-size: 1rem;  }
+    /* .section-con-text{ font-size: .8rem; } */
+    /* .section-con-text.last-text{font-size: .75rem; } */
+    .card .card-content p span{ font-size: .6rem; }
+    .section-con-btm .card .card-content .card-title{ font-size: .9rem;  }
+    .section-con-btm .card .card-content .card-title+p{ font-size: .7rem; }
+    .section-client .content-title{ font-size: 1rem; }
+    .section-banner2 .section-con-text{ font-size: .9375rem; }
+    
+    .section-conBox .card .card-image, .section-con-top .card .card-image{
+        height: 95px;
+    }
+
+    /*-----BoxIconInfo */
+    /* .infographicsBox .section-con-bottom-box .card .card-content p span{
+        letter-spacing: -.08em;
+    } */
+
+    /* .section{ padding: 4rem 0 2rem; }
+    .section-con-btm-box .card{ height:80px; }
+    .section-con-btm .card .card-content{ padding:.5rem .8rem; }
+
+    .card .card-content{ padding:0; }
+    .section-con-top .card .card-image{ height:65px; }
+    .section-con-top-box li .card .card-content p span{ letter-spacing: -.18rem; }
+     */
+    /* .marketer-con-top-box li.col.s4:nth-child(1){width:30%;}
+    .marketer-con-top-box li.col.s4:nth-child(2){width:38%;}
+    .marketer-con-top-box li.col.s4:nth-child(3){width:32%;}
+    .section-con-top.marketer-con-top li:nth-child(2).move .card .card-image::before{height: 97px;bottom:-.5vh;} */
+
+    /*----- BannerLink  */
+    .section-banner.left-align .banner-contents .section-con-title.banner-title{
+        font-size: 1rem;
+        letter-spacing: -.05em;
+    }
+
+    .section-con-btm-box .card{height:65px; }    
+
+    .modal .modal-btn{padding:0;}
+
+}
