@@ -10,7 +10,7 @@ import {
   useLocation
 } from "react-router-dom";
 
-import Mobintouch from '/mobintouch/src/index.js'
+// import Mobintouch from '/mobintouch/src/index.js'
 
 
 let originURL = window.location.origin;
@@ -24,12 +24,12 @@ function App() {
       <a href={`${originURL}/maxsummit/`} className="btn-style waves-effect waves-red" target="_blank">maxsummit 2019</a>
       <a href={`${originURL}/mtc1st/`} className="btn-style waves-effect waves-red" target="_blank">MaxTheCreative 2019 1st</a>
       <a href={`${originURL}/mobintouch/`} className="btn-style waves-effect waves-red" target="_blank">mobintouch</a>
-      <Router>
+      {/* <Router>
         <Switch>
           <Route path="/mobintouch" exact component={Mobintouch}>[DEMO] 모비인터치</Route>
-          {/* <Route path="/mtc2nd" exact component={MTC1st}>[DEMO] 맥스더크리에이티브 2nd</Route> */}
+          <Route path="/mtc2nd" exact component={MTC1st}>[DEMO] 맥스더크리에이티브 2nd</Route>
         </Switch>
-      </Router>
+      </Router> */}
     </div>
   );
 }
