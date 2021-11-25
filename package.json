@@ -27,6 +27,7 @@
     "react-dom": "^16.9.0",
     "react-final-form": "^6.3.5",
     "react-google-sheets": "^0.4.0",
+    "react-helmet": "^6.1.0",
     "react-hook-form": "^4.9.2",
     "react-html-email": "^3.0.0",
     "react-id-swiper": "^2.4.0",
