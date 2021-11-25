@@ -44,8 +44,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build-test": "react-scripts build && cp robots_prevent.txt build/robots.txt",
-    "build-prod": "react-scripts build && cp robots.txt build/robots.txt",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
