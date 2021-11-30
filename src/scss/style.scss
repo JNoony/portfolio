@@ -6,7 +6,9 @@
     }
 
     &_gnb{
-        line-height: 2;
-        margin-bottom:10px;
+        li{
+            line-height: 2;
+            margin-bottom:10px;
+        }
     }
 }
