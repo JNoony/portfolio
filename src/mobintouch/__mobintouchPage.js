@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Router, Route, browserHistory, IndexRoute } from 'react-router-dom';
 import Root from './client/Root';
 
-import './index.css';
 
 // 기본 webpack이 설정되어 있는 create-react-app 이 프로젝트 베이스.
 // webpack 설정 커스텀 하고 싶다면 npm run eject 해서 처음부터 설정해야함. [※npm run eject 한 후엔 되돌릴수 없음] 
