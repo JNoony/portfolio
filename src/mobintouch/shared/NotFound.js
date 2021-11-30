@@ -8,7 +8,7 @@ function NotFound (){
     return(
         <div className="not-container ">
             <div className="head wid">
-                <h1 className="mobi-logo"><img src={`${process.env.PUBLIC_URL}/images/intouch-logo.svg`} /></h1>
+                <h1 className="mobi-logo"><img src={`${process.env.PUBLIC_URL}/mobintouch/images/intouch-logo.svg`} /></h1>
             </div>
             <div className="not-contents wid">
                 <h2>404</h2>

@@ -51,7 +51,7 @@ export default function PartnerProgram({match}){
             data={infographicsBoxData.data} />
 
         <div className="link-button-box ">
-          <Link to='/partner/position' className="btn-style" 
+          <Link to='/mobintouch/partner/position' className="btn-style" 
                 onClick={handleClick} >채용 중인 공고 확인하기</Link>
         </div> 
 
@@ -109,20 +109,20 @@ const IconButtonInfo = {
   title:'모비인터치 파트너로 함께하세요!',
   text:<>대한민국 마케터들의 보다 나은 커리어 개발을 위해<br/>다양한 혜택을 제공하고 있습니다.</>,
   btn:'link-button-box first',
-  btnUrl:'https://open.kakao.com/o/gelKPFvb',
+  btnUrl:'https://open.kakao.com/o/카카오오픈쳇팅아이디',
   btnName:'알림받기',
   txtClass:'',
   txtCon:<>모비인터치 파트너만을 위한 마케팅 채용 공고를 지금 바로 확인해보세요.<br className="pc" />
          연봉,커리어 개발, 워라밸 등에 맞춰 선별된 다양한 마케팅 직무 채용 포지션에 <br className="pc" />
          직접 지원 또는 지인 추천이 가능합니다.</>,
   data:[
-    { src:process.env.PUBLIC_URL +'/images/partner/i-partner-1-1.png',
+    { src:process.env.PUBLIC_URL +'./images/partner/i-partner-1-1.png',
       text:<span>지인 추천 채용 성공 시, <br/>추천 보상금 지급 <br className="mobile"/>(최대 150만 원)</span>,
     },
-    { src:process.env.PUBLIC_URL +'/images/partner/i-partner-2-1.png',
+    { src:process.env.PUBLIC_URL +'./images/partner/i-partner-2-1.png',
       text:<span>커리어 개발을 위한<br className="mobile"/> 마케팅 교육,<br/>컨퍼런스 초대권 제공</span>,
     },
-    { src:process.env.PUBLIC_URL +'/images/partner/i-partner-3-1.png',
+    { src:process.env.PUBLIC_URL +'./images/partner/i-partner-3-1.png',
       text:<span>워라밸을 위한 <br className="mobile"/>공연 전시<br/>무료 초대권 티켓 제공</span>,
     },
   ]
@@ -142,19 +142,19 @@ const infographicsBoxData={
          연봉,커리어 개발, 워라밸 등에 맞춰 선별된 다양한 마케팅 직무 채용 포지션에 <br className="pc" />
          직접 지원 또는 지인 추천이 가능합니다.</>,
   data:[
-    { src:process.env.PUBLIC_URL +'/images/program/i-program-1.png',
+    { src:process.env.PUBLIC_URL +'./images/program/i-program-1.png',
       text:<span>매일 업데이트되는<br/>신규 마케팅 <br/>채용 포지션 확인</span>,
     },
-    { src:process.env.PUBLIC_URL +'/images/program/i-program-2.png',
+    { src:process.env.PUBLIC_URL +'./images/program/i-program-2.png',
       text:<span>지인에게<br/>포지션 공유 또는<br/>본인이 직접 지원 가능</span>,
     },
-    { src:process.env.PUBLIC_URL +'/images/program/i-program-3.png',
+    { src:process.env.PUBLIC_URL +'./images/program/i-program-3.png',
       text:<span>서류 제출부터<br/>인터뷰까지<br/>전문적인 컨설팅 진행</span>,
     },
-    { src:process.env.PUBLIC_URL +'/images/program/i-program-4.png',
+    { src:process.env.PUBLIC_URL +'./images/program/i-program-4.png',
       text:<span>연봉협상 및<br/>근무 처우 협의</span>,
     },
-    { src:process.env.PUBLIC_URL +'/images/program/i-program-5.png',
+    { src:process.env.PUBLIC_URL +'./images/program/i-program-5.png',
       text:<span>추천 지인 이직성공 시,<br/>50만원~150만원 지급</span>,
     },
   ]

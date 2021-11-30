@@ -20,6 +20,7 @@ import PrivacyPage from '../pages/PrivacyPage';
 
 
 import NotFound from './NotFound';
+import MobintouchHelmet from '../components/Header/Helmet';
 // import Footer from '../components/Footer';
 // import TopBtn from '../components/TopBtn';
 
@@ -27,20 +28,21 @@ import NotFound from './NotFound';
 
 export default function App() {
     // window.Kakao.init('76a62eaf98534a906b31f501348f0548');
-    return (
+    return (<>
+        <MobintouchHelmet />
         <Router>
             <Switch>
                 <Route path="/mobintouch" exact component={MainPage} />
-                <Route path="/company" component={CompanyPage} />
-                <Route path="/marketer" component={MarketerPage} />
-                <Route path="/contact" component={ContactPage} />  
-                <Route path="/privacy" component={PrivacyPage} />  
+                <Route path="/mobintouch/company" component={CompanyPage} />
+                <Route path="/mobintouch/marketer" component={MarketerPage} />
+                <Route path="/mobintouch/contact" component={ContactPage} />  
+                <Route path="/mobintouch/privacy" component={PrivacyPage} />  
 
-                <Route path="/partner" component={ProgramPage} >
-                    <Route path="/partner" exact component={ProgramPage} />
-                    <Route path="/partner/position" component={PositionPage}>
-                        <Route path="/partner/position/:id" component={PositionPage} />
-                        <Route path="/partner/position" exact component={PositionPage} />
+                <Route path="/mobintouch/partner" component={ProgramPage} >
+                    <Route path="/mobintouch/partner" exact component={ProgramPage} />
+                    <Route path="/mobintouch/partner/position" component={PositionPage}>
+                        <Route path="/mobintouch/partner/position/:id" component={PositionPage} />
+                        <Route path="/mobintouch/partner/position" exact component={PositionPage} />
                     </Route>
                 </Route>
 
@@ -48,7 +50,7 @@ export default function App() {
                 {/* <Route path="/*" component={NotFound} /> */}
             </Switch>           
         </Router>
-    );
+    </>);
 }
 
 

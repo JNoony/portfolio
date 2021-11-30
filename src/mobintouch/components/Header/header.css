@@ -80,7 +80,7 @@ header{
 .btn-style.kakao-chn .icon{ 
     position: absolute;top:0;bottom:0;left:12%;margin: auto;
     width:30px;height:30px;
-    background:url(/images/icon-kakao.png) no-repeat;
+    background:url(/mobintouch/images/icon-kakao.png) no-repeat;
     background-size: 100%;
     background-position-y: 45%;
 }
@@ -133,7 +133,7 @@ header.fix .alert{display: none;}
    MAIN  
 -----------*/
 .visual-banner{
-    background:#386092 url(/images/mobi-bg.jpg) no-repeat 0 100%;
+    background:#386092 url(/mobintouch/images/mobi-bg.jpg) no-repeat 0 100%;
     background-size:cover;
     height:500px;
     position: relative;
@@ -148,7 +148,7 @@ header.fix .alert{display: none;}
 }
 
 .bg-banner .mobi-logo.big{
-    background: url(/images/icon-01.png) no-repeat center;
+    background: url(/mobintouch/images/icon-01.png) no-repeat center;
     background-size:auto 100% !important;
     height:73px ;
     width:auto ;
@@ -169,7 +169,7 @@ header.fix .alert{display: none;}
 -----------*/
 .visual.sub-visual .visual-banner{
     height: 340px;
-    background: #386092 url(/images/mobi-sub-bg.jpg) no-repeat 0 100%;
+    background: #386092 url(/mobintouch/images/mobi-sub-bg.jpg) no-repeat 0 100%;
     background-size: cover;
     position: relative;
 }
@@ -192,7 +192,7 @@ header.fix .alert{display: none;}
     left: 0;
     width: 100%;
     height: 440px;
-    background: cadetblue url(/images/mobi-sub-bg2.jpg) no-repeat center;
+    background: cadetblue url(/mobintouch/images/mobi-sub-bg2.jpg) no-repeat center;
     background-size: cover;
 }
 .sub-visual-contact.visual.sub-visual .bg-banner{
@@ -234,11 +234,11 @@ header.fix .alert{display: none;}
 .swiper-button-next{right:inherit;left:19%;}
 
 .swiper-slide:nth-child(1){
-    background: url(/images/mobi-sub-bg2-2.jpg) no-repeat center;
+    background: url(/mobintouch/images/mobi-sub-bg2-2.jpg) no-repeat center;
     background-size: cover;
 }
 .swiper-slide:nth-child(3){
-    background: url(/images/mobi-sub-bg2-3.jpg) no-repeat center;
+    background: url(/mobintouch/images/mobi-sub-bg2-3.jpg) no-repeat center;
     background-size: cover;
 }
 

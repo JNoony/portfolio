@@ -81,7 +81,7 @@ function DailyButton (props){
                 }
                 return(
                   <li className={`dataButton-list ${con.class}`} key={i} >
-                    <NavLink exact to={`/partner/position/${con.class}`}
+                    <NavLink exact to={`/mobintouch/partner/position/${con.class}`}
                              type={con.class}
                              // onClick={()=>props.handleName(con.class)}
                              activeStyle={active}

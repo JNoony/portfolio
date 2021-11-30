@@ -17,8 +17,8 @@ function Footer() {
               <p>Tel: 02-0000-0000 (내선번호 714)</p>
               <p>E-mail: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=tarot0312@kakao.com" 
                             className="mailto" target="_blank">tarot0312@kakao.com</a> </p>
-              <p>서울특별시 강남구 역삼동 834-34 2층</p>
-              <p><a href="/privacy" target="_blank">개인정보 취급방침</a> | 개인정보책임관리자.최휘영</p>
+              <p>서울특별시 관악구</p>
+              <p><a href="/privacy" target="_blank">개인정보 취급방침</a> | 개인정보책임관리자.나</p>
           </div>
           <div className="foot-copy">©2020 Mobidays, Inc. All Rights Reserved.</div>
       </div>

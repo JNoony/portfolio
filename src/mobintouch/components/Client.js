@@ -6,7 +6,7 @@ export default function Client(){
             <div className="wid center-align">
                 <h2 className="content-title">모비인터치는 다양한 기업의 마케터 채용을<br className="mobile" /> 지원하고 있습니다.</h2>
                 <div className="flexBox">
-                    <img src={`${process.env.PUBLIC_URL }/images/client/client-logo-02.png`} 
+                    <img src={`${process.env.PUBLIC_URL }/mobintouch/images/client/client-logo-02.png`} 
                          alt="기업 로고들" />
                 {/* {ClientBanner.map( (con, i) => {
                     return( <FlexBox src={con.src}

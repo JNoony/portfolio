@@ -111,7 +111,7 @@ export default function List(props){
           url={'#'}
           key={i}
           class={con.state.length>0 ? 'close' : ''}
-          src={con.src} alt={con.company}
+          src={'/mobintouch'+con.src} alt={con.company}
           company={con.company}
           position={con.position} job={con.job}
           point={con.point}

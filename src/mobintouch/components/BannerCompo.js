@@ -10,7 +10,7 @@ export default function Banner(){
                      <a href={defaultData.href} target="_blank" className="card-btn" rel="noopener noreferrer">무료진단 시작하기</a>
                 </div>
                 <div className="section-con-box section-con-right">
-                    <img src="./images/icon-03.png" alt="배경픽토그램" />
+                    <img src="/mobintouch/images/icon-03.png" alt="배경픽토그램" />
                 </div>
              </div>
         </div>

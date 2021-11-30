@@ -55,7 +55,7 @@ export default function ContentsBox(){
 // BannerLink data[하단-문의하기 배너]
 const bannerData = {
   class:'left-align blind-img bgColor-gray',
-  src:'images/icon-02.png',
+  src:'./images/icon-02.png',
   alt:'icon',
   title:<>모비인터치에서는 마케팅 또는 마케터 채용 관련 맞춤 컨설팅을 진행해드리고 있습니다.<br />
   마케터/인재 채용 또는 제휴/파트너쉽 관련 문의 사항을 남겨주세요.</>,
@@ -86,16 +86,16 @@ const programInfo = {
   title:'채용 프로세스 안내',
   text:'',
   data:[
-    { src:process.env.PUBLIC_URL +'/images/program/i-program-1.png',
+    { src:process.env.PUBLIC_URL +'./images/program/i-program-1.png',
       text:<span>기업 상황에 맞는<br/>채용 포지션 컨설팅 진행</span>,
     },
-    { src:process.env.PUBLIC_URL +'/images/program/i-program-2.png',
+    { src:process.env.PUBLIC_URL +'./images/program/i-program-2.png',
       text:<span>모비데이즈에서 5년간 축적한<br/>마케터 DB를 통한 인재 확보</span>,
     },
-    { src:process.env.PUBLIC_URL +'/images/program/i-program-3.png',
+    { src:process.env.PUBLIC_URL +'./images/program/i-program-3.png',
       text:<span>추천 인재 서류 제출부터 면접,<br/>연봉협상, 오퍼레터까지 모두 지원</span>,
     },
-    { src:process.env.PUBLIC_URL +'/images/program/i-program-4.png',
+    { src:process.env.PUBLIC_URL +'./images/program/i-program-4.png',
       text:<span>입사 후 소프트랜딩을 위한<br/>마케팅 교육 지원</span>,
     },
     // { src:process.env.PUBLIC_URL +'/images/program/i-program-5.png',

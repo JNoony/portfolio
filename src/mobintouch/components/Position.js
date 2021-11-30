@@ -5,18 +5,18 @@ class Position extends Component{
         super(props);
         this.state={
             ClientBanner:[
-                { src:'#!', img:'./images/client/banner-09.png' },
-                { src:'#!', img:'./images/client/banner-10.png' },
-                { src:'#!', img:'./images/client/banner-11.png' },
-                { src:'#!', img:'./images/client/banner-12.png' },
-                { src:'#!', img:'./images/client/banner-14.png' },
-                { src:'#!', img:'./images/client/banner-02.png' },
-                { src:'#!', img:'./images/client/banner-03.png' },
-                { src:'#!', img:'./images/client/banner-04.png' },
-                { src:'#!', img:'./images/client/banner-13.png' },
-                { src:'#!', img:'./images/client/banner-06.png' },
-                { src:'#!', img:'./images/client/banner-07.png' },
-                { src:'#!', img:'./images/client/banner-08.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-09.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-10.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-11.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-12.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-14.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-02.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-03.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-04.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-13.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-06.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-07.png' },
+                { src:'#!', img:'/mobintouch/images/client/banner-08.png' },
             ]
         }
     }

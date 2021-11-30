@@ -71,8 +71,8 @@ export default function Nav(props){
 }
 
 const navName = [
-    { href:'/company', class:'company', name:'company'  },
-    { href:'/marketer', class:'marketer', name:'marketer'  },
-    { href:'/partner', class:'position', name:'채용 포지션'  },
-    { href:'/contact', class:'contact', name:'문의하기'  },
+    { href:'/mobintouch/company', class:'company', name:'company'  },
+    { href:'/mobintouch/marketer', class:'marketer', name:'marketer'  },
+    { href:'/mobintouch/partner', class:'position', name:'채용 포지션'  },
+    { href:'/mobintouch/contact', class:'contact', name:'문의하기'  },
 ]

@@ -50,13 +50,13 @@ export default function Header(props) {
   },[])
 
   return (
-    <>
+    <>      
       <header className={` ${visible ? 'fix' : ''}`}>
         <div className="head wid flexBox">
             <h1 className="mobi-logo">
               <Link to={'/'} rel="noopener noreferrer" 
                     onClick={handleClick} >
-                <img src={`${process.env.PUBLIC_URL}/images/intouch-logo.svg`} />
+                <img src={`${process.env.PUBLIC_URL}/mobintouch/images/intouch-logo.svg`} />
               </Link>
             </h1>
 
