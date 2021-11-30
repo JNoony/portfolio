@@ -10,6 +10,8 @@ import {
   useLocation
 } from "react-router-dom";
 
+import './scss/style.scss'
+
 import Mobintouch from './mobintouch/shared/MobintouchPage'
 
 let originURL = window.location.origin;
@@ -18,9 +20,9 @@ let para = window.location.pathname;
 const router = (originURL) => {
   return(
     <>
-    <div>
-      <h2>포트폴리오 데모페이지 허브사이트</h2>
-      <ul>
+    <div className="hub-page_wrap">
+      <h2 className="hub-page_wrap-title">포트폴리오 데모페이지 허브사이트</h2>
+      <ul className="hub-page_wrap-gnb">
         <li><a href={`${originURL}/webfertile/`} target="_blank">webfertile</a></li>
         <li><a href={`${originURL}/promotion/game/src/`} target="_blank">promotion</a></li>
         <li><a href={`${originURL}/maxsummit/`} target="_blank">maxsummit 2019</a></li>
