@@ -12,11 +12,12 @@ import {
 
 import Mobintouch from './mobintouch/shared/MobintouchPage'
 
+let originURL = window.location.origin;
+let para = window.location.pathname;
+console.log('originURL : ',originURL)
+console.log('para : ',para)
 
 function App() { 
-  let originURL = window.location.origin;
-  let para = window.location.pathname;
-
   return (
     <div className="App">
       { para === '/mobintouch/' || para === '/mtc2nd/' 
