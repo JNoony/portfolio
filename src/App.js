@@ -14,22 +14,6 @@ import Mobintouch from './mobintouch/shared/MobintouchPage'
 
 let originURL = window.location.origin;
 let para = window.location.pathname;
-console.log('originURL : ',originURL)
-console.log('para : ',para)
-
-function App() { 
-  return (
-    <div className="App">
-      { para === '/mobintouch/' || para === '/mtc2nd/' 
-        ? '' : router(originURL) }
-
-      <Switch>
-        <Route path="/mobintouch" component={Mobintouch} />
-        <Route path="/mtc2nd" component={Mobintouch} />
-      </Switch>
-    </div>
-  );
-}
 
 const router = (originURL) => {
   return(
@@ -48,5 +32,25 @@ const router = (originURL) => {
     </>
   )
 }
+
+
+function App() { 
+  const HeaderDraw = () =>{
+    return para.indexOf('/mobintouch') > -1  || para.indexOf('/mtc2nd/') > -1 ? '' : router(originURL);
+  }
+
+  return (
+    <>
+      <HeaderDraw/>
+
+      <Switch>
+        <Route path="/mobintouch" component={Mobintouch} />
+        <Route path="/mtc2nd" component={Mobintouch} />
+      </Switch>
+    </>
+  );
+}
+
+
 
 export default App;
